@@ -122,8 +122,8 @@
     "id": 18,
     "question": "How do you declare a JavaScript variable?",
     "code": "",
-    "answer": ["variable carName;", "var carName;", "v carName;", "declare carName;"],
-    "correctAnswer": 1
+    "answer": ["variable carName;", "var carName;", "let carName;", "declare carName;"],
+    "correctAnswer": 2
   },
   {
     "id": 19,
@@ -190,163 +190,163 @@
   },
   {
     "id": 28,
-    "question": "What will the following code output?",
-    "code": "console.log(typeof NaN);",
-    "answer": ["number", "string", "undefined", "object"],
-    "correctAnswer": 0
-  },
-  {
-    "id": 29,
     "question": "Which of the following is a ternary operator in JavaScript?",
     "code": "",
     "answer": ["?", ":", "??", "&&"],
     "correctAnswer": 0
   },
   {
-    "id": 30,
+    "id": 29,
     "question": "What will the following code output?",
     "code": "console.log(true + false);",
     "answer": ["truefalse", "1", "NaN", "undefined"],
     "correctAnswer": 1
   },
   {
-    "id": 31,
+    "id": 30,
     "question": "Which method is used to round a number to its nearest integer in JavaScript?",
     "code": "",
     "answer": ["Math.round()", "Math.ceil()", "Math.floor()", "Math.trunc()"],
     "correctAnswer": 0
   },
   {
-    "id": 32,
+    "id": 31,
     "question": "What will the following code output?",
     "code": "console.log(typeof function(){});",
     "answer": ["object", "function", "undefined", "string"],
     "correctAnswer": 1
   },
   {
-    "id": 33,
+    "id": 32,
     "question": "Which method can be used to join all elements of an array into a string?",
     "code": "",
     "answer": ["concat()", "join()", "push()", "pop()"],
     "correctAnswer": 1
   },
   {
-    "id": 34,
+    "id": 33,
     "question": "What will the following code output?",
     "code": "console.log('Hello'.charAt(0));",
     "answer": ["H", "e", "o", "undefined"],
     "correctAnswer": 0
   },
   {
-    "id": 35,
+    "id": 34,
     "question": "What is the output of the following code?",
     "code": "console.log(Boolean(''));",
     "answer": ["true", "false", "undefined", "null"],
     "correctAnswer": 1
   },
   {
-    "id": 36,
-    "question": "What will the following code output?",
-    "code": "console.log(typeof NaN);",
-    "answer": ["number", "string", "undefined", "object"],
-    "correctAnswer": 0
-  },
-  {
-    "id": 37,
+    "id": 35,
     "question": "Which method is used to convert a string to lowercase letters in JavaScript?",
     "code": "",
     "answer": ["toLowerCase()", "toLower()", "changeCase(lower)", "None of the above"],
     "correctAnswer": 0
   },
   {
-    "id": 38,
+    "id": 36,
     "question": "What will the following code output?",
     "code": "console.log(2 + '2' - '2');",
-    "answer": ["22", "2", "NaN", "undefined"],
-    "correctAnswer": 1
+    "answer": ["20", "2", "NaN", "undefined"],
+    "correctAnswer": 0
   },
   {
-    "id": 39,
+    "id": 37,
     "question": "Which method can be used to extract a section of a string in JavaScript?",
     "code": "",
     "answer": ["slice()", "split()", "replace()", "search()"],
     "correctAnswer": 0
   },
   {
-    "id": 40,
+    "id": 38,
     "question": "What will the following code output?",
     "code": "console.log(1 / 0);",
     "answer": ["NaN", "Infinity", "undefined", "Error"],
     "correctAnswer": 1
   },
   {
-    "id": 41,
+    "id": 39,
     "question": "What does the 'isNaN' function do?",
     "code": "",
     "answer": ["Checks if a value is a number", "Checks if a value is not a number", "Checks if a value is null", "Checks if a value is undefined"],
     "correctAnswer": 1
   },
   {
-    "id": 42,
+    "id": 40,
     "question": "What is the purpose of the 'break' statement in a loop?",
     "code": "",
     "answer": ["To pause the loop", "To stop the loop and exit", "To restart the loop", "None of the above"],
     "correctAnswer": 1
   },
   {
-    "id": 43,
-    "question": "What will the following code output?",
-    "code": "console.log(5 + null);",
-    "answer": ["5null", "null", "5", "5"],
-    "correctAnswer": 3
-  },
-  {
-    "id": 44,
+    "id": 41,
     "question": "Which method can be used to convert a string to an array?",
     "code": "",
     "answer": ["split()", "join()", "toArray()", "None of the above"],
     "correctAnswer": 0
   },
   {
-    "id": 45,
+    "id": 42,
     "question": "What is the output of the following code?",
     "code": "console.log(Boolean(0));",
     "answer": ["true", "false", "undefined", "null"],
     "correctAnswer": 1
   },
   {
-    "id": 46,
+    "id": 43,
     "question": "What will the following code output?",
     "code": "console.log(typeof []);",
     "answer": ["object", "array", "undefined", "string"],
     "correctAnswer": 0
   },
   {
-    "id": 47,
+    "id": 44,
     "question": "Which method can be used to remove the last element from an array?",
     "code": "",
     "answer": ["pop()", "push()", "shift()", "unshift()"],
     "correctAnswer": 0
   },
   {
-    "id": 48,
+    "id": 45,
     "question": "What will the following code output?",
     "code": "console.log('10' - 5);",
     "answer": ["105", "5", "NaN", "undefined"],
     "correctAnswer": 1
   },
   {
-    "id": 49,
+    "id": 46,
     "question": "What does the 'map' method do in JavaScript?",
     "code": "",
     "answer": ["Maps one array to another array", "Creates a new array with the results of calling a provided function on every element in the calling array", "Filters elements from an array", "None of the above"],
     "correctAnswer": 1
   },
   {
-    "id": 50,
+    "id": 47,
     "question": "What will the following code output?",
     "code": "console.log(2 * null);",
     "answer": ["0", "null", "NaN", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 48,
+    "question": "Which statement is used to declare a constant in JavaScript?",
+    "code": "",
+    "answer": ["constant", "let", "const", "var"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 49,
+    "question": "What is the output of the following code?",
+    "code": "console.log('10' * 2);",
+    "answer": ["20", "102", "NaN", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 50,
+    "question": "Which method can be used to add one or more elements to the beginning of an array?",
+    "code": "",
+    "answer": ["unshift()", "shift()", "push()", "pop()"],
     "correctAnswer": 0
   }
 ]
