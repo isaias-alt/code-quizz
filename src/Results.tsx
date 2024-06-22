@@ -1,3 +1,4 @@
+import { Button } from "@mui/material"
 import { useQuestionsStore } from "./store/questions"
 
 export const useQuestionsData = () => {
@@ -18,6 +19,7 @@ export const useQuestionsData = () => {
 }
 
 export const Results = () => {
+  const reset = useQuestionsStore(state => state.reset)
   const { correct, incorrect, unanswered } = useQuestionsData()
 
   return (
@@ -25,6 +27,9 @@ export const Results = () => {
       <strong>
         {`✅ ${correct} corrects - ❌ ${incorrect} incorrects - ❔ ${unanswered} unanswered`}
       </strong>
+      <div style={{ marginTop: '16px' }}>
+        <Button variant="outlined" onClick={() => reset()}>Reset Game</Button>
+      </div>
     </footer>
   )
 }
