@@ -5,6 +5,7 @@ import SyntaxHighlighter from 'react-syntax-highlighter'
 import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 import { type Question as QuestionType } from "./types.d"
 import { ArrowForwardIos } from "@mui/icons-material";
+import { Results } from "./Results";
 
 const getBackGroundColor = (info: QuestionType, index: number) => {
   const { userSelectedAnswer, correctAnswer } = info
@@ -76,6 +77,7 @@ currentQuestion
         </IconButton>
       </Stack>
       <Question info={questionInfo}/>
+      <Results />
     </>
   )
 }
