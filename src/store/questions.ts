@@ -57,5 +57,4 @@ export const useQuestionsStore = create<State>()(persist((set, get) => {
   };
 }, {
   name: 'questions',
-  getStorage: () => localStorage
 }));
