@@ -7,9 +7,7 @@ import { Game } from './components/Game'
 
 function App() {
   const questions = useQuestionsStore(state => state.questions)
-
-  console.log(questions)
-
+  
   return (
     <main>
       <Container maxWidth='sm'>
