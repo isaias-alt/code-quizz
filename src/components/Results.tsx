@@ -1,5 +1,5 @@
 import { Button } from "@mui/material"
-import { useQuestionsStore } from "./store/questions"
+import { useQuestionsStore } from "../store/questions"
 
 export const useQuestionsData = () => {
   const questions = useQuestionsStore(state => state.questions)

@@ -1,11 +1,10 @@
-import { Card, Stack, IconButton, List, ListItem, ListItemButton, ListItemText, Typography } from "@mui/material"
-import ArrowBackIos from '@mui/icons-material/ArrowBackIosNew';
-import { useQuestionsStore } from "./store/questions"
 import SyntaxHighlighter from 'react-syntax-highlighter'
 import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs'
-import { type Question as QuestionType } from "./types.d"
-import { ArrowForwardIos } from "@mui/icons-material";
-import { Results } from "./Results";
+import { type Question as QuestionType } from "../types"
+import { useQuestionsStore } from "../store/questions"
+import { Card, List, ListItem, ListItemButton, ListItemText, Typography } from "@mui/material"
+
+
 
 const getBackGroundColor = (info: QuestionType, index: number) => {
   const { userSelectedAnswer, correctAnswer } = info
@@ -21,7 +20,7 @@ const getBackGroundColor = (info: QuestionType, index: number) => {
   return 'transparent'
 }
 
-const Question = ({ info }: {info: QuestionType}) => {
+export const Question = ({ info }: {info: QuestionType}) => {
   const selectAnswer = useQuestionsStore(state => state.selectAnswer)
 
   const handleClick = (answerIndex: number) => () => {
@@ -53,31 +52,5 @@ const Question = ({ info }: {info: QuestionType}) => {
         ))}
       </List>
     </Card>
-  )
-}
-
-export const Game = () => {
-  const questions = useQuestionsStore(state => state.questions)
-  const currentQuestion = useQuestionsStore(state => state.currentQuestion)
-  const goNextQuestion = useQuestionsStore(state => state.goNextQuestion)
-  const goPreviousQuestion = useQuestionsStore(state => state.goPreviousQuestion)
-
-  const questionInfo = questions[currentQuestion]
-
-currentQuestion
-  return (
-    <>
-      <Stack direction="row" gap={2} alignItems="center" justifyContent="center" >
-        <IconButton onClick={goPreviousQuestion} disabled={currentQuestion === 0}>
-          <ArrowBackIos />
-        </IconButton>
-        {currentQuestion + 1} / {questions.length}
-        <IconButton onClick={goNextQuestion} disabled={currentQuestion >= questions.length - 1}>
-          <ArrowForwardIos />
-        </IconButton>
-      </Stack>
-      <Question info={questionInfo}/>
-      <Results />
-    </>
   )
 }
