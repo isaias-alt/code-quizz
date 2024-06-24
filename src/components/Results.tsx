@@ -23,13 +23,13 @@ export const Results = () => {
   const { correct, incorrect, unanswered } = useQuestionsData()
 
   return (
-    <footer style={{ marginTop: '16px' }}>
+    <section style={{ marginTop: '16px' }}>
       <strong>
         {`✅ ${correct} corrects - ❌ ${incorrect} incorrects - ❔ ${unanswered} unanswered`}
       </strong>
       <div style={{ marginTop: '16px' }}>
         <Button variant="outlined" onClick={() => reset()}>Reset Game</Button>
       </div>
-    </footer>
+    </section>
   )
 }
