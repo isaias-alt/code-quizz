@@ -1,9 +1,11 @@
 import { Button } from "@mui/material"
 import { useQuestionsStore } from "../store/questions"
+import { useTranslation } from "react-i18next"
 
 const LIMIT_QUESTIONS = 10
 
 export const Start = () => {
+  const { t } = useTranslation()
   const fetchQuestions = useQuestionsStore(state => state.fetchQuestions)
 
   const handleClick = () => {
@@ -12,7 +14,7 @@ export const Start = () => {
   
   return (
     <Button onClick={handleClick} variant="contained" aria-label="start button">
-      Start
+       {t('start')}
     </Button>
   )
 }

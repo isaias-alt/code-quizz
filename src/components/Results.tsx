@@ -1,5 +1,6 @@
 import { Button } from "@mui/material"
 import { useQuestionsStore } from "../store/questions"
+import { useTranslation } from "react-i18next"
 
 export const useQuestionsData = () => {
   const questions = useQuestionsStore(state => state.questions)
@@ -19,16 +20,17 @@ export const useQuestionsData = () => {
 }
 
 export const Results = () => {
+  const { t } = useTranslation()
   const reset = useQuestionsStore(state => state.reset)
   const { correct, incorrect, unanswered } = useQuestionsData()
 
   return (
     <section style={{ marginTop: '16px' }}>
       <strong>
-        {`✅ ${correct} corrects - ❌ ${incorrect} incorrects - ❔ ${unanswered} unanswered`}
+        {`✅ ${correct} ${t('corrects')} - ❌ ${incorrect} ${t('incorrects')} - ❔ ${unanswered} ${t('unanswered')}`}
       </strong>
       <div style={{ marginTop: '16px' }}>
-        <Button variant="outlined" onClick={() => reset()}>Reset Game</Button>
+        <Button variant="outlined" onClick={() => reset()}>{t('reset')}</Button>
       </div>
     </section>
   )
