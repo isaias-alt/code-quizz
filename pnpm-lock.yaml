@@ -26,12 +26,6 @@ importers:
       canvas-confetti:
         specifier: 1.9.3
         version: 1.9.3
-      i18next:
-        specifier: ^23.11.5
-        version: 23.11.5
-      i18next-browser-languagedetector:
-        specifier: ^8.0.0
-        version: 8.0.0
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -1423,9 +1417,6 @@ packages:
 
   html-parse-stringify@3.0.1:
     resolution: {integrity: sha512-KknJ50kTInJ7qIScF3jeaFRpMpE8/lfiTdzf/twXyPBLAGrLRTmkz3AdTnKeh40X8k9L2fdYwEp/42WGXIRGcg==}
-
-  i18next-browser-languagedetector@8.0.0:
-    resolution: {integrity: sha512-zhXdJXTTCoG39QsrOCiOabnWj2jecouOqbchu3EfhtSHxIB5Uugnm9JaizenOy39h7ne3+fLikIjeW88+rgszw==}
 
   i18next@23.11.5:
     resolution: {integrity: sha512-41pvpVbW9rhZPk5xjCX2TPJi2861LEig/YRhUkY+1FQ2IQPS0bKUDYnEqY8XPPbB48h1uIwLnP9iiEfuSl20CA==}
@@ -3713,10 +3704,6 @@ snapshots:
   html-parse-stringify@3.0.1:
     dependencies:
       void-elements: 3.1.0
-
-  i18next-browser-languagedetector@8.0.0:
-    dependencies:
-      '@babel/runtime': 7.24.7
 
   i18next@23.11.5:
     dependencies:
