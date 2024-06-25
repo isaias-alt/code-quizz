@@ -4,6 +4,7 @@ import { Start } from "./components/Start";
 import { useQuestionsStore } from "./store/questions";
 import { Game } from "./components/Game";
 import { Header } from "./components/Header";
+import { CodeQuizzIcon } from "./components/icons/CodeQuizzIcon";
 
 function App() {
   const questions = useQuestionsStore((state) => state.questions);
@@ -11,19 +12,16 @@ function App() {
   return (
     <main>
       <Header />
-      <Container maxWidth="sm" sx={{ marginTop: '16px' }}>
+      <Container maxWidth="sm" sx={{ marginTop: "16px" }}>
         <Stack
           direction="row"
           gap={2}
           alignItems="center"
           justifyContent="center"
+          sx={{ marginBottom: "16px" }}
         >
-          <img
-            style={{ width: "68px", height: "68px" }}
-            src="/icon.svg"
-            alt="app icon"
-          />
-          <Typography variant="h2" component="h1" sx={{ marginBottom: '16px' }}>
+          <CodeQuizzIcon />
+          <Typography variant="h2" component="h1">
             Code Quizz
           </Typography>
         </Stack>
