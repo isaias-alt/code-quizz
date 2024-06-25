@@ -1,14 +1,16 @@
 import { Button, MenuItem, Select, Stack, Box } from "@mui/material";
 import { SetStateAction, useState } from "react";
 import { GitHubIcon } from "./icons/GitHubIcon";
+import { useQuestionsStore } from "../store/questions";
 
 export const Header = () => {
   const [language, setLanguage] = useState("javascript");
+  const setSelectedLanguage = useQuestionsStore(state => state.setSelectedLanguage);
 
-  const handleProgrammingLanguageChange = (event: {
-    target: { value: SetStateAction<string> };
-  }) => {
-    setLanguage(event.target.value);
+  const handleProgrammingLanguageChange = (event: { target: { value: SetStateAction<string> } }) => {
+    const selectedLanguage = event.target.value as string
+    setLanguage(selectedLanguage)
+    setSelectedLanguage(selectedLanguage)
   };
 
   return (
@@ -27,6 +29,8 @@ export const Header = () => {
           inputProps={{ "aria-label": "programming language" }}
         >
           <MenuItem value="javascript">JavaScript</MenuItem>
+          <MenuItem value="dart">Dart</MenuItem>
+          <MenuItem value="python">Python</MenuItem>
         </Select>
         <Button
           variant="outlined"
@@ -34,7 +38,7 @@ export const Header = () => {
           href="https://github.com/isaias-alt/code-quizz"
           target="_blank"
         >
-          Star on GitHub
+          Start on GitHub
         </Button>
       </Stack>
     </Box>

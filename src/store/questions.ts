@@ -7,19 +7,22 @@ import { getAllQuestions } from "../services/questions";
 interface State {
   questions: Question[]
   currentQuestion: number
-  fetchQuestions: (limit: number) => Promise<void>
+  selectedLanguage: string
+  fetchQuestions: (limit?: number, language?: string) => Promise<void>
   selectAnswer: (questionId: number, answerIndex: number) => void
   goNextQuestion: () => void
   goPreviousQuestion: () => void
+  setSelectedLanguage: (language: string) => void
   reset: () => void
 }
 
 export const useQuestionsStore = create<State>()(persist((set, get) => {
   return {
     questions: [],
+    selectedLanguage: 'javascript',
     currentQuestion: 0,
-    fetchQuestions: async (limit) => {
-      const questions = await getAllQuestions(limit);
+    fetchQuestions: async (limit = 10, language = get().selectedLanguage) => {
+      const questions = await getAllQuestions(limit, language);
       set({ questions });
     },
     selectAnswer: (questionId, answerIndex) => {
@@ -54,6 +57,9 @@ export const useQuestionsStore = create<State>()(persist((set, get) => {
     reset: () => {
       set({ currentQuestion: 0, questions: [] })
     },
+    setSelectedLanguage: (language: string) => {
+      set({ selectedLanguage: language });
+    }    
   };
 }, {
   name: 'questions',
