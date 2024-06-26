@@ -32,9 +32,6 @@ importers:
       react-dom:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
-      react-i18next:
-        specifier: ^14.1.2
-        version: 14.1.2(i18next@23.11.5)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react-syntax-highlighter:
         specifier: 15.5.0
         version: 15.5.0(react@18.2.0)
@@ -355,20 +352,20 @@ packages:
     resolution: {integrity: sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  '@floating-ui/core@1.6.2':
-    resolution: {integrity: sha512-+2XpQV9LLZeanU4ZevzRnGFg2neDeKHgFLjP6YLW+tly0IvrhqT4u8enLGjLH3qeh85g19xY5rsAusfwTdn5lg==}
+  '@floating-ui/core@1.6.3':
+    resolution: {integrity: sha512-1ZpCvYf788/ZXOhRQGFxnYQOVgeU+pi0i+d0Ow34La7qjIXETi6RNswGVKkA6KcDO8/+Ysu2E/CeUmmeEBDvTg==}
 
-  '@floating-ui/dom@1.6.5':
-    resolution: {integrity: sha512-Nsdud2X65Dz+1RHjAIP0t8z5e2ff/IRbei6BqFrl1urT8sDVzM1HMQ+R0XcU5ceRfyO3I6ayeqIfh+6Wb8LGTw==}
+  '@floating-ui/dom@1.6.6':
+    resolution: {integrity: sha512-qiTYajAnh3P+38kECeffMSQgbvXty2VB6rS+42iWR4FPIlZjLK84E9qtLnMTLIpPz2znD/TaFqaiavMUrS+Hcw==}
 
-  '@floating-ui/react-dom@2.1.0':
-    resolution: {integrity: sha512-lNzj5EQmEKn5FFKc04+zasr09h/uX8RtJRNj5gUXsSQIXHVWTVh+hVAg1vOMCexkX8EgvemMvIFpQfkosnVNyA==}
+  '@floating-ui/react-dom@2.1.1':
+    resolution: {integrity: sha512-4h84MJt3CHrtG18mGsXuLCHMrug49d7DFkU0RMIyshRveBeyV2hmV/pDaF2Uxtu8kgq5r46llp5E5FQiR0K2Yg==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
 
-  '@floating-ui/utils@0.2.2':
-    resolution: {integrity: sha512-J4yDIIthosAsRZ5CPYP/jQvUAQtlZTTD/4suA08/FEnlxqW3sKS9iAhgsa9VYLZ6vDHn/ixJgIqRQPotoBjxIw==}
+  '@floating-ui/utils@0.2.3':
+    resolution: {integrity: sha512-XGndio0l5/Gvd6CLIABvsav9HHezgDFFhDfHk1bvLfr9ni8dojqLSvBbotJEjmIwNHL7vK4QzBJTdBRoB+c1ww==}
 
   '@fontsource/roboto@5.0.13':
     resolution: {integrity: sha512-j61DHjsdUCKMXSdNLTOxcG701FWnF0jcqNNQi2iPCDxU8seN/sMxeh62dC++UiagCWq9ghTypX+Pcy7kX+QOeQ==}
@@ -1415,12 +1412,6 @@ packages:
   hoist-non-react-statics@3.3.2:
     resolution: {integrity: sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==}
 
-  html-parse-stringify@3.0.1:
-    resolution: {integrity: sha512-KknJ50kTInJ7qIScF3jeaFRpMpE8/lfiTdzf/twXyPBLAGrLRTmkz3AdTnKeh40X8k9L2fdYwEp/42WGXIRGcg==}
-
-  i18next@23.11.5:
-    resolution: {integrity: sha512-41pvpVbW9rhZPk5xjCX2TPJi2861LEig/YRhUkY+1FQ2IQPS0bKUDYnEqY8XPPbB48h1uIwLnP9iiEfuSl20CA==}
-
   ignore@5.3.1:
     resolution: {integrity: sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==}
     engines: {node: '>= 4'}
@@ -1849,19 +1840,6 @@ packages:
     peerDependencies:
       react: ^18.2.0
 
-  react-i18next@14.1.2:
-    resolution: {integrity: sha512-FSIcJy6oauJbGEXfhUgVeLzvWBhIBIS+/9c6Lj4niwKZyGaGb4V4vUbATXSlsHJDXXB+ociNxqFNiFuV1gmoqg==}
-    peerDependencies:
-      i18next: '>= 23.2.3'
-      react: '>= 16.8.0'
-      react-dom: '*'
-      react-native: '*'
-    peerDependenciesMeta:
-      react-dom:
-        optional: true
-      react-native:
-        optional: true
-
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
@@ -2138,10 +2116,6 @@ packages:
         optional: true
       terser:
         optional: true
-
-  void-elements@3.1.0:
-    resolution: {integrity: sha512-Dhxzh5HZuiHQhbvTW9AMetFfBHDMYpo23Uo9btPXgdYP+3T5S+p+jgNy7spra+veYhBP2dCSgxR/i2Y02h5/6w==}
-    engines: {node: '>=0.10.0'}
 
   which-boxed-primitive@1.0.2:
     resolution: {integrity: sha512-bwZdv0AKLpplFY2KZRX6TvyuN7ojjr7lwkg6ml0roIy9YeuSr7JS372qlNW18UQYzgYK9ziGcerWqZOmEn9VNg==}
@@ -2464,22 +2438,22 @@ snapshots:
 
   '@eslint/js@8.57.0': {}
 
-  '@floating-ui/core@1.6.2':
+  '@floating-ui/core@1.6.3':
     dependencies:
-      '@floating-ui/utils': 0.2.2
+      '@floating-ui/utils': 0.2.3
 
-  '@floating-ui/dom@1.6.5':
+  '@floating-ui/dom@1.6.6':
     dependencies:
-      '@floating-ui/core': 1.6.2
-      '@floating-ui/utils': 0.2.2
+      '@floating-ui/core': 1.6.3
+      '@floating-ui/utils': 0.2.3
 
-  '@floating-ui/react-dom@2.1.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@floating-ui/react-dom@2.1.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
-      '@floating-ui/dom': 1.6.5
+      '@floating-ui/dom': 1.6.6
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
 
-  '@floating-ui/utils@0.2.2': {}
+  '@floating-ui/utils@0.2.3': {}
 
   '@fontsource/roboto@5.0.13': {}
 
@@ -2515,7 +2489,7 @@ snapshots:
   '@mui/base@5.0.0-beta.40(@types/react@18.2.66)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@babel/runtime': 7.24.7
-      '@floating-ui/react-dom': 2.1.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@floating-ui/react-dom': 2.1.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       '@mui/types': 7.2.14(@types/react@18.2.66)
       '@mui/utils': 5.15.20(@types/react@18.2.66)(react@18.2.0)
       '@popperjs/core': 2.11.8
@@ -3701,14 +3675,6 @@ snapshots:
     dependencies:
       react-is: 16.13.1
 
-  html-parse-stringify@3.0.1:
-    dependencies:
-      void-elements: 3.1.0
-
-  i18next@23.11.5:
-    dependencies:
-      '@babel/runtime': 7.24.7
-
   ignore@5.3.1: {}
 
   import-fresh@3.3.0:
@@ -4121,15 +4087,6 @@ snapshots:
       react: 18.2.0
       scheduler: 0.23.2
 
-  react-i18next@14.1.2(i18next@23.11.5)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
-    dependencies:
-      '@babel/runtime': 7.24.7
-      html-parse-stringify: 3.0.1
-      i18next: 23.11.5
-      react: 18.2.0
-    optionalDependencies:
-      react-dom: 18.2.0(react@18.2.0)
-
   react-is@16.13.1: {}
 
   react-is@18.3.1: {}
@@ -4458,8 +4415,6 @@ snapshots:
       rollup: 4.18.0
     optionalDependencies:
       fsevents: 2.3.3
-
-  void-elements@3.1.0: {}
 
   which-boxed-primitive@1.0.2:
     dependencies:
