@@ -1,19 +1,9 @@
 import SyntaxHighlighter from 'react-syntax-highlighter'
 import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs'
-import { type Question as QuestionType } from "../types"
 import { useQuestionsStore } from "../store/questions"
+import { type Question as QuestionType } from "../types"
 import { Card, List, ListItem, ListItemButton, ListItemText, Typography } from "@mui/material"
-
-
-
-const getBackGroundColor = (info: QuestionType, index: number) => {
-  const { userSelectedAnswer, correctAnswer } = info
-  if (userSelectedAnswer == null) return 'transparent'
-  if(index !== correctAnswer && index !== userSelectedAnswer) return 'transparent'
-  if (index === correctAnswer) return '#258525'
-  if (index === userSelectedAnswer) return '#8a1919'
-  return 'transparent'
-}
+import { getBackgroundColor } from '../utils/colorUtils'
 
 export const Question = ({ info }: {info: QuestionType}) => {
   const selectAnswer = useQuestionsStore(state => state.selectAnswer)
@@ -38,7 +28,7 @@ export const Question = ({ info }: {info: QuestionType}) => {
               onClick={handleClick(index)}
               disabled={info.userSelectedAnswer != null}
               sx={{
-                backgroundColor: getBackGroundColor(info, index)
+                backgroundColor: getBackgroundColor(info, index)
               }}
             >
               <ListItemText primary={answer} sx={{ textAlign: 'center' }} />
