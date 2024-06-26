@@ -38,7 +38,7 @@ export const Header = () => {
           href="https://github.com/isaias-alt/code-quizz"
           target="_blank"
         >
-          Start on GitHub
+          Star on GitHub
         </Button>
       </Stack>
     </Box>
