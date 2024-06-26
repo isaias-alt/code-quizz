@@ -1,22 +1,6 @@
 import { Button } from "@mui/material"
 import { useQuestionsStore } from "../store/questions"
-
-export const useQuestionsData = () => {
-  const questions = useQuestionsStore(state => state.questions)
-
-  let correct = 0
-  let incorrect = 0
-  let unanswered = 0
-
-  questions.forEach(question => {
-    const { userSelectedAnswer, correctAnswer } = question
-    if (userSelectedAnswer == null) unanswered++
-    else if (userSelectedAnswer === correctAnswer) correct++
-    else incorrect++
-  })
-
-  return { correct, incorrect, unanswered }
-}
+import { useQuestionsData } from "../hooks/useQuestionsData"
 
 export const Results = () => {
   const reset = useQuestionsStore(state => state.reset)
