@@ -4,7 +4,6 @@ import { StartScreen } from "./components/StartScreen";
 
 function App() {
 
-
   return (
     <main>
       <Header />
