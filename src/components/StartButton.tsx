@@ -3,7 +3,7 @@ import { useQuestionsStore } from "../store/questions";
 
 const LIMIT_QUESTIONS = 10;
 
-export const Start = () => {
+export const StartButton = () => {
   const fetchQuestions = useQuestionsStore(state => state.fetchQuestions);
   const selectedLanguage = useQuestionsStore(state => state.selectedLanguage);
 
