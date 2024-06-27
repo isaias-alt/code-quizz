@@ -4,7 +4,7 @@
 
 ## Description
 
-Code Quizz is an interactive web application that allows users to answer code-related questions in various programming languages. The application utilizes React, TypeScript, Vite for fast development, Zustand for state management, and Material UI (MUI) for a polished user interface.
+Code Quizz is an interactive web application that allows users to answer code-related questions in various programming languages, based on [this midudev video](https://www.youtube.com/watch?v=p2wF2wRjcN0). The application utilizes React, TypeScript, Vite for fast development, Zustand for state management, and Material UI (MUI) for a polished user interface.
 
 ## Features
 
