@@ -1,6 +1,6 @@
 # Code Quizz
 
-![Code Quizz](public/codequizz.webp)
+![Code Quizz](public/codequizz.png)
 
 ## Description
 
