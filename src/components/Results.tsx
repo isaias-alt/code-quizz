@@ -9,7 +9,7 @@ export const Results = () => {
   return (
     <section style={{ marginTop: '16px' }}>
       <strong>
-        {`✅ ${correct} corrects' - ❌ ${incorrect} incorrects - ❔ ${unanswered} unanswered`}
+        {`✅ ${correct} corrects - ❌ ${incorrect} incorrects - ❔ ${unanswered} unanswered`}
       </strong>
       <div style={{ marginTop: '16px' }}>
         <Button variant="outlined" onClick={() => reset()}>reset</Button>
