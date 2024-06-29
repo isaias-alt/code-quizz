@@ -56,41 +56,6 @@ Follow these steps to set up the project on your local machine:
 - `pnpm run lint`: Runs TypeScript and React code linter.
 - `pnpm run preview`: Previews the built app.
 
-## Project Structure
-
-```plaintext
-code-quizz/
-├── public/
-│    ├── dart.json
-│    ├── icon.svg
-│    └── javascript.tsx
-├── src/
-│   ├── components/
-│   │   ├── Game.tsx
-│   │   ├── Header.tsx
-│   │   ├── Question.tsx
-│   │   ├── Results.tsx
-│   │   ├── Start.tsx
-│   │   └── icons/
-│   │       └── CodeQuizzIcon.tsx
-│   │       └── GitHubIcon.tsx
-│   │       └── JavaScriptIcon.tsx
-│   ├── hooks/
-│   │   └── useQuestionsData.ts
-│   ├── services/
-│   │   └── questions.ts
-│   ├── store/
-│   │   └── questions.ts
-│   ├── utils/
-│   │   └── colorUtils.ts
-│   ├── App.tsx
-│   ├── main.tsx
-│   └── index.css
-├── package.json
-├── tsconfig.json
-└── vite.config.ts
-```
-
 ## Contribution
 
 Contributions are welcome! If you have any ideas or find any bugs, please open an [issue](https://github.com/isaias-alt/code-quizz/issues) or submit a [pull request](https://github.com/isaias-alt/code-quizz/pulls).
