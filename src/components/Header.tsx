@@ -31,6 +31,8 @@ export const Header = () => {
           <MenuItem value="javascript">JavaScript</MenuItem>
           <MenuItem value="dart">Dart</MenuItem>
           <MenuItem value="python">Python</MenuItem>
+          <MenuItem value="typescript">TypeScript</MenuItem>
+          <MenuItem value="c">C</MenuItem>
         </Select>
         <Button
           variant="outlined"

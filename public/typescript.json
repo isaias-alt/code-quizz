@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "question": "What is TypeScript?",
+    "code": "",
+    "answers": ["A programming language", "A superset of JavaScript", "A database management system", "A CSS framework"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is true about TypeScript?",
+    "code": "",
+    "answers": ["TypeScript is a strongly typed language", "TypeScript is case-insensitive", "TypeScript is not a superset of JavaScript", "TypeScript cannot be compiled to JavaScript"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 3,
+    "question": "How do you define a variable in TypeScript?",
+    "code": "",
+    "answers": ["let variableName: type;", "variableName: type let;", "var: type variableName;", "variableName let: type;"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "Which command is used to install TypeScript globally?",
+    "code": "",
+    "answers": ["npm install -g typescript", "npm install typescript", "npm typescript -g install", "install -g typescript npm"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 5,
+    "question": "Which file extension is used for TypeScript files?",
+    "code": "",
+    "answers": [".js", ".ts", ".tsx", ".jsx"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 6,
+    "question": "How do you compile a TypeScript file?",
+    "code": "",
+    "answers": ["tsc filename.ts", "compile filename.ts", "typescript filename.ts", "ts compile filename.ts"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 7,
+    "question": "What is the main advantage of using TypeScript over JavaScript?",
+    "code": "",
+    "answers": ["TypeScript is faster", "TypeScript provides type checking", "TypeScript is easier to write", "TypeScript has more features"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is a TypeScript feature?",
+    "code": "",
+    "answers": ["Static type-checking", "Automatic memory management", "Dynamic scoping", "None of the above"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 9,
+    "question": "What is the TypeScript compiler command?",
+    "code": "",
+    "answers": ["tsc", "tscompile", "typescriptc", "tscompiler"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 10,
+    "question": "How do you declare an array in TypeScript?",
+    "code": "",
+    "answers": ["let arr: number[];", "let arr = new Array<number>();", "let arr: Array<number>;", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 11,
+    "question": "Which of the following is not a valid type in TypeScript?",
+    "code": "",
+    "answers": ["number", "string", "boolean", "float"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 12,
+    "question": "What will the following code output?",
+    "code": "let x: any = 5;\nx = 'Hello';\nconsole.log(typeof x);",
+    "answers": ["number", "string", "boolean", "undefined"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 13,
+    "question": "What is an interface in TypeScript?",
+    "code": "",
+    "answers": ["A way to enforce a contract on a class", "A function definition", "A type of loop", "None of the above"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 14,
+    "question": "Which of the following is the correct syntax for defining a class in TypeScript?",
+    "code": "",
+    "answers": ["class MyClass {}", "class: MyClass {}", "MyClass class {}", "class = MyClass {}"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 15,
+    "question": "What is the output of the following TypeScript code?",
+    "code": "let isDone: boolean = false;\nconsole.log(isDone);",
+    "answers": ["true", "false", "undefined", "null"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 16,
+    "question": "Which of the following is a way to define a function in TypeScript?",
+    "code": "",
+    "answers": ["function funcName(): void {}", "let funcName: () => void = function() {}", "let funcName = (): void => {}", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 17,
+    "question": "What is the correct way to define a tuple in TypeScript?",
+    "code": "",
+    "answers": ["let tuple: [number, string] = [1, 'hello'];", "let tuple = [number, string];", "let tuple: (number, string) = [1, 'hello'];", "let tuple: [1, 'hello']"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 18,
+    "question": "Which of the following keywords is used to inherit a class in TypeScript?",
+    "code": "",
+    "answers": ["extends", "inherits", "implements", "derives"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 19,
+    "question": "How do you specify the type of an object in TypeScript?",
+    "code": "",
+    "answers": ["let obj: { name: string; age: number; };", "let obj: { name = string; age = number; };", "let obj: { name: string, age: number };", "let obj = { name: string, age: number };"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 20,
+    "question": "What will the following code output?",
+    "code": "enum Direction { Up, Down, Left, Right }\nconsole.log(Direction.Up);",
+    "answers": ["'Up'", "0", "undefined", "null"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 21,
+    "question": "Which of the following is used to define optional properties in TypeScript?",
+    "code": "",
+    "answers": ["Question mark (?)", "Exclamation mark (!)", "Asterisk (*)", "Ampersand (&)"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 22,
+    "question": "Which of the following is a valid way to declare a function with a return type in TypeScript?",
+    "code": "",
+    "answers": ["function greet(): string {}", "function greet: string() {}", "function greet(): void {}", "function greet = string() {}"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 23,
+    "question": "What is the correct syntax to use a module in TypeScript?",
+    "code": "",
+    "answers": ["import { ModuleName } from 'module';", "require('module');", "include 'module';", "import 'module';"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 24,
+    "question": "How do you define a read-only property in TypeScript?",
+    "code": "",
+    "answers": ["readonly", "immutable", "static", "final"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 25,
+    "question": "What will the following code output?",
+    "code": "let list: number[] = [1, 2, 3];\nconsole.log(list[1]);",
+    "answers": ["1", "2", "3", "undefined"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 26,
+    "question": "Which keyword is used to export a member from a module in TypeScript?",
+    "code": "",
+    "answers": ["export", "module", "public", "private"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 27,
+    "question": "Which of the following is not a TypeScript data type?",
+    "code": "",
+    "answers": ["undefined", "symbol", "number", "decimal"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 28,
+    "question": "How do you define an interface in TypeScript?",
+    "code": "",
+    "answers": ["interface MyInterface {}", "interface: MyInterface {}", "MyInterface interface {}", "interface = MyInterface {}"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 29,
+    "question": "What is the purpose of the 'as' keyword in TypeScript?",
+    "code": "",
+    "answers": ["To type cast an expression", "To create an alias", "To declare a variable", "To import a module"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 30,
+    "question": "What will the following code output?",
+    "code": "let x: [string, number];\nx = ['hello', 10];\nconsole.log(x[0].substring(1));",
+    "answers": ["'ello'", "'hello'", "'10'", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 31,
+    "question": "Which of the following is the correct syntax for defining a generic function in TypeScript?",
+    "code": "",
+    "answers": ["function identity<T>(arg: T): T { return arg; }", "function identity(arg: T): T { return arg; }", "function identity<T>(T arg): T { return arg; }", "function identity(arg: <T>): T { return arg; }"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 32,
+    "question": "What will the following code output?",
+    "code": "let someValue: any = 'this is a string';\nlet strLength: number = (<string>someValue).length;\nconsole.log(strLength);",
+    "answers": ["16", "15", "14", "undefined"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 33,
+    "question": "Which of the following is used to create a type alias in TypeScript?",
+    "code": "",
+    "answers": ["type", "alias", "typedef", "define"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 34,
+    "question": "What is the output of the following code?",
+    "code": "let isDone: boolean = false;\nconsole.log(isDone);",
+    "answers": ["true", "false", "undefined", "null"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 35,
+    "question": "What is the correct way to define a union type in TypeScript?",
+    "code": "",
+    "answers": ["let value: number | string;", "let value: number || string;", "let value = number || string;", "let value = number | string;"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 36,
+    "question": "Which of the following is a TypeScript compiler option?",
+    "code": "",
+    "answers": ["--strictNullChecks", "--strictNullCheck", "--strictNull", "--strict"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 37,
+    "question": "How do you define an abstract class in TypeScript?",
+    "code": "",
+    "answers": ["abstract class MyClass {}", "class MyClass abstract {}", "MyClass abstract class {}", "abstract MyClass class {}"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 38,
+    "question": "Which of the following is the correct way to define a type guard in TypeScript?",
+    "code": "",
+    "answers": ["function isString(value: any): value is string { return typeof value === 'string'; }", "function isString(value: any): string { return typeof value === 'string'; }", "function isString(value: any): boolean { return typeof value === 'string'; }", "function isString(value: any): value == 'string';"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 39,
+    "question": "What is the purpose of the 'never' type in TypeScript?",
+    "code": "",
+    "answers": ["To indicate values that never occur", "To indicate a variable that can be of any type", "To indicate a function that returns a value", "None of the above"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 40,
+    "question": "Which of the following is a way to handle asynchronous operations in TypeScript?",
+    "code": "",
+    "answers": ["Promises", "Callbacks", "Async/Await", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 41,
+    "question": "What will the following code output?",
+    "code": "let input: any = 123;\nlet str: string = input as string;\nconsole.log(str);",
+    "answers": ["123", "undefined", "TypeError", "None of the above"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 42,
+    "question": "Which of the following is a correct way to define an enumeration in TypeScript?",
+    "code": "",
+    "answers": ["enum Direction { Up, Down, Left, Right }", "enumeration Direction { Up, Down, Left, Right }", "enum Direction: { Up, Down, Left, Right }", "enumerate Direction { Up, Down, Left, Right }"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 43,
+    "question": "What is the output of the following code?",
+    "code": "let value: any = '123';\nconsole.log((<number>value).toFixed(2));",
+    "answers": ["123.00", "TypeError", "undefined", "None of the above"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 44,
+    "question": "Which of the following is true about TypeScript modules?",
+    "code": "",
+    "answers": ["They are similar to ES6 modules", "They can contain both code and declarations", "They can be exported and imported", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 45,
+    "question": "How do you enable strict type-checking options in TypeScript?",
+    "code": "",
+    "answers": ["In the tsconfig.json file by setting \"strict\": true", "Using the --strict command line option", "By setting individual strict options like \"strictNullChecks\"", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 46,
+    "question": "What is the output of the following code?",
+    "code": "function foo(bar: number) {\n  return bar + 10;\n}\nconsole.log(foo('10'));",
+    "answers": ["20", "1010", "NaN", "TypeError"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 47,
+    "question": "What is the purpose of the 'unknown' type in TypeScript?",
+    "code": "",
+    "answers": ["It is a safer alternative to 'any'", "It indicates a variable that can be of any type", "It is used to declare a function without a return type", "None of the above"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 48,
+    "question": "Which of the following is used to check the runtime type of a variable in TypeScript?",
+    "code": "",
+    "answers": ["typeof", "instanceof", "Both typeof and instanceof", "None of the above"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 49,
+    "question": "What is the output of the following code?",
+    "code": "class Greeter {\n  greet() {\n    console.log('Hello, world!');\n  }\n}\nlet greeter = new Greeter();\ngreeter.greet();",
+    "answers": ["Hello, world!", "undefined", "TypeError", "None of the above"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 50,
+    "question": "Which of the following is true about TypeScript decorators?",
+    "code": "",
+    "answers": ["They are a special kind of declaration attached to a class", "They can modify the behavior of a class", "They are experimental and require enabling in tsconfig.json", "All of the above"],
+    "correctAnswer": 3
+  }
+]
