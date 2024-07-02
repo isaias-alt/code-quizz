@@ -72,8 +72,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 - Email: [cascolucasisaias@gmail.com](mailto:cascolucasisaias@gmail.com)
 - Twitter: [lucascodev](https://twitter.com/lucascodev)
 
----
-
 Enjoy using Code Quizz and enhance your programming skills!
-
-[![Star on GitHub](https://img.shields.io/github/stars/isaias-alt/code-quizz?style=social)](https://github.com/isaias-alt/code-quizz)
