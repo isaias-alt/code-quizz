@@ -3,7 +3,7 @@ import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 import { useQuestionsStore } from "../store/questions"
 import { type Question as QuestionType } from "../types"
 import { Card, List, ListItem, ListItemButton, ListItemText, Typography } from "@mui/material"
-import { getBackgroundColor } from '../utils/colorUtils'
+import { getBackgroundColor } from '../utils'
 
 export const Question = ({ info }: {info: QuestionType}) => {
   const selectAnswer = useQuestionsStore(state => state.selectAnswer)

@@ -2,7 +2,7 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import { State } from "../types.d";
 import { getAllQuestions } from "../services/questions";
-import { handleSelectAnswer } from '../utils/selectAnswerUtils';
+import { handleSelectAnswer } from "../utils";
 
 
 export const useQuestionsStore = create<State>()(persist((set, get) => {
