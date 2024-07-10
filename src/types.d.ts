@@ -20,3 +20,8 @@ export interface State {
   setSelectedLanguage: (language: string) => void
   reset: () => void
 }
+
+export interface Language {
+  value: string;
+  label: string;
+}
