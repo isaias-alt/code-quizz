@@ -2,6 +2,7 @@ import { Button, MenuItem, Select, Stack, Box } from "@mui/material";
 import { SetStateAction, useState } from "react";
 import { GitHubIcon } from "./icons/GitHubIcon";
 import { useQuestionsStore } from "../store/questions";
+import { LANGUAGES } from "../constants/languages";
 
 export const Header = () => {
   const [language, setLanguage] = useState("javascript");
@@ -28,11 +29,11 @@ export const Header = () => {
           size="small"
           inputProps={{ "aria-label": "programming language" }}
         >
-          <MenuItem value="javascript">JavaScript</MenuItem>
-          <MenuItem value="dart">Dart</MenuItem>
-          <MenuItem value="python">Python</MenuItem>
-          <MenuItem value="typescript">TypeScript</MenuItem>
-          <MenuItem value="c">C</MenuItem>
+          {LANGUAGES.map(({ value, label }) => (
+            <MenuItem key={value} value={value}>
+              {label}
+            </MenuItem>
+          ))}
         </Select>
         <Button
           variant="outlined"
