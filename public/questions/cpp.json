@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following is the correct way to declare a constant in C++?",
+    "code": "",
+    "answers": ["const int x = 5;", "int const x = 5;", "#define x 5", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 2,
+    "question": "What is the correct syntax to include a user-defined header file in C++?",
+    "code": "",
+    "answers": ["#include <file.h>", "#include 'file.h'", "#include \"file.h\"", "#include [file.h]"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is used to define a macro in C++?",
+    "code": "",
+    "answers": ["#macro", "#define", "#include", "#ifdef"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 4,
+    "question": "Which of the following is true about a constructor in C++?",
+    "code": "",
+    "answers": ["A constructor is called when an object is destroyed", "A constructor is called when an object is created", "A constructor can be called manually", "None of the above"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 5,
+    "question": "What is the correct way to declare an integer array in C++?",
+    "code": "",
+    "answers": ["int arr[] = {1, 2, 3};", "int arr[3] = {1, 2, 3};", "int arr[3];", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 6,
+    "question": "Which of the following is used to handle exceptions in C++?",
+    "code": "",
+    "answers": ["try-catch block", "if-else block", "for loop", "switch-case block"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 7,
+    "question": "Which of the following is the correct way to declare a pointer in C++?",
+    "code": "",
+    "answers": ["int *ptr;", "int ptr*;", "int* ptr;", "Both A and C"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is true about a destructor in C++?",
+    "code": "",
+    "answers": ["A destructor is called when an object is created", "A destructor is called when an object is destroyed", "A destructor can be called manually", "None of the above"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is used to define an inline function in C++?",
+    "code": "",
+    "answers": ["inline", "def", "define", "function"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 10,
+    "question": "What is the correct way to declare a reference variable in C++?",
+    "code": "",
+    "answers": ["int &ref = var;", "int ref& = var;", "int ref = &var;", "int &ref = &var;"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 11,
+    "question": "Which of the following is the correct way to allocate memory dynamically in C++?",
+    "code": "",
+    "answers": ["int *ptr = new int;", "int ptr = new int;", "int *ptr = malloc(sizeof(int));", "int ptr = malloc(sizeof(int));"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 12,
+    "question": "Which of the following is true about the 'this' pointer in C++?",
+    "code": "",
+    "answers": ["'this' pointer is a reference to the current object", "'this' pointer is a pointer to the current object", "'this' pointer can be modified", "None of the above"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 13,
+    "question": "Which of the following is the correct way to declare a function in C++?",
+    "code": "",
+    "answers": ["void func();", "void func[];", "void func;", "void func{};"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 14,
+    "question": "Which of the following is used to define a template in C++?",
+    "code": "",
+    "answers": ["template", "define", "class", "None of the above"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 15,
+    "question": "Which of the following is true about inheritance in C++?",
+    "code": "",
+    "answers": ["Inheritance allows code reusability", "Inheritance supports hierarchical classification", "Inheritance is used to define a new class based on an existing class", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 16,
+    "question": "Which of the following is the correct way to declare a constant pointer in C++?",
+    "code": "",
+    "answers": ["int *const ptr;", "const int *ptr;", "int const *ptr;", "Both B and C"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 17,
+    "question": "Which of the following is the correct way to initialize a vector in C++?",
+    "code": "",
+    "answers": ["vector<int> vec = {1, 2, 3};", "vector<int> vec = (1, 2, 3);", "vector<int> vec{1, 2, 3};", "Both A and C"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 18,
+    "question": "Which of the following is true about polymorphism in C++?",
+    "code": "",
+    "answers": ["Polymorphism allows functions to have different forms", "Polymorphism supports function overloading", "Polymorphism supports operator overloading", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 19,
+    "question": "Which of the following is the correct way to define a namespace in C++?",
+    "code": "",
+    "answers": ["namespace name {}", "namespace name []", "namespace name ()", "namespace name <>"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 20,
+    "question": "Which of the following is the correct way to declare a pure virtual function in C++?",
+    "code": "",
+    "answers": ["virtual void func() = 0;", "void virtual func() = 0;", "virtual void func();", "None of the above"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 21,
+    "question": "Which of the following is true about friend functions in C++?",
+    "code": "",
+    "answers": ["A friend function can access private members of a class", "A friend function is defined inside a class", "A friend function can be inherited", "None of the above"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 22,
+    "question": "Which of the following is used to implement multiple inheritance in C++?",
+    "code": "",
+    "answers": ["class derived: public base1, public base2", "class derived: base1, base2", "class derived: public base1, base2", "class derived: public base1 and base2"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 23,
+    "question": "Which of the following is the correct way to overload an operator in C++?",
+    "code": "",
+    "answers": ["operator+", "operator +", "operator(+) ", "operator(+)()"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 24,
+    "question": "Which of the following is true about static member functions in C++?",
+    "code": "",
+    "answers": ["Static member functions can access non-static members", "Static member functions can be called without an object", "Static member functions can be virtual", "None of the above"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 25,
+    "question": "Which of the following is the correct way to create an object in C++?",
+    "code": "",
+    "answers": ["ClassName obj;", "ClassName obj[];", "ClassName obj();", "ClassName obj{};"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 26,
+    "question": "Which of the following is the correct way to declare a destructor in C++?",
+    "code": "",
+    "answers": ["~ClassName();", "void ~ClassName();", "~ClassName{};", "~ClassName[];"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 27,
+    "question": "Which of the following is true about a virtual destructor in C++?",
+    "code": "",
+    "answers": ["A virtual destructor is used to ensure proper cleanup of derived class objects", "A virtual destructor cannot be defined", "A virtual destructor cannot be inherited", "None of the above"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 28,
+    "question": "Which of the following is the correct way to define a class template in C++?",
+    "code": "",
+    "answers": ["template<class T>", "template<T>", "template<class>", "template<T class>"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 29,
+    "question": "Which of the following is used to deallocate memory in C++?",
+    "code": "",
+    "answers": ["delete", "free", "release", "dealloc"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 30,
+    "question": "Which of the following is true about a copy constructor in C++?",
+    "code": "",
+    "answers": ["A copy constructor is used to create a copy of an existing object", "A copy constructor is used to destroy an object", "A copy constructor can be called manually", "None of the above"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 31,
+    "question": "Which of the following is the correct way to define an enum in C++?",
+    "code": "",
+    "answers": ["enum Color {RED, GREEN, BLUE};", "enum {RED, GREEN, BLUE} Color;", "enum Color : {RED, GREEN, BLUE};", "enum Color = {RED, GREEN, BLUE};"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 32,
+    "question": "Which of the following is true about encapsulation in C++?",
+    "code": "",
+    "answers": ["Encapsulation allows bundling of data and methods", "Encapsulation restricts access to data", "Encapsulation promotes code modularity", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 33,
+    "question": "Which of the following is the correct way to define a lambda expression in C++?",
+    "code": "",
+    "answers": ["[](){}", "lambda(){}", "()->{}", "{}->{}"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 34,
+    "question": "Which of the following is true about move semantics in C++?",
+    "code": "",
+    "answers": ["Move semantics enable the transfer of resources from one object to another", "Move semantics prevent resource leaks", "Move semantics improve performance by avoiding unnecessary copies", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 35,
+    "question": "Which of the following is used to define a structure in C++?",
+    "code": "",
+    "answers": ["struct", "structure", "define struct", "None of the above"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 36,
+    "question": "Which of the following is true about the standard template library (STL) in C++?",
+    "code": "",
+    "answers": ["STL provides a set of common classes and functions", "STL supports generic programming", "STL includes containers, iterators, algorithms, and functors", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 37,
+    "question": "Which of the following is the correct way to define a multithreaded program in C++?",
+    "code": "",
+    "answers": ["#include <thread>", "#include <multi_thread>", "#include <threading>", "#include <multithread>"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 38,
+    "question": "Which of the following is the correct way to handle a file in C++?",
+    "code": "",
+    "answers": ["#include <fstream>", "#include <file>", "#include <fileio>", "#include <iofile>"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 39,
+    "question": "Which of the following is true about the 'auto' keyword in C++?",
+    "code": "",
+    "answers": ["'auto' allows automatic type deduction", "'auto' can be used with variables", "'auto' simplifies code by reducing verbosity", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 40,
+    "question": "Which of the following is the correct way to declare a unique pointer in C++?",
+    "code": "",
+    "answers": ["std::unique_ptr<int> ptr = std::make_unique<int>();", "unique_ptr<int> ptr = make_unique<int>();", "std::unique_ptr<int> ptr = make_unique<int>();", "unique_ptr<int> ptr = std::make_unique<int>();"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 41,
+    "question": "Which of the following is true about a shared pointer in C++?",
+    "code": "",
+    "answers": ["A shared pointer maintains reference counting", "A shared pointer can share ownership of an object", "A shared pointer ensures proper cleanup when no references remain", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 42,
+    "question": "Which of the following is used to handle dynamic arrays in C++?",
+    "code": "",
+    "answers": ["std::vector", "std::array", "std::list", "std::deque"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 43,
+    "question": "Which of the following is the correct way to declare a lambda that captures variables by reference in C++?",
+    "code": "",
+    "answers": ["[&](){}", "[=](){}", "[capture]{}", "[ref]{}"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 44,
+    "question": "Which of the following is true about constexpr in C++?",
+    "code": "",
+    "answers": ["constexpr allows compile-time constant expressions", "constexpr can be used with variables and functions", "constexpr improves performance by evaluating expressions at compile time", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 45,
+    "question": "Which of the following is the correct way to declare a type alias in C++?",
+    "code": "",
+    "answers": ["using alias = int;", "typedef int alias;", "alias = int;", "Both A and B"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 46,
+    "question": "Which of the following is true about the std::array container in C++?",
+    "code": "",
+    "answers": ["std::array is a fixed-size array", "std::array provides better performance than std::vector for fixed-size arrays", "std::array supports iterators and range-based for loops", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 47,
+    "question": "Which of the following is the correct way to define a class member function outside the class definition in C++?",
+    "code": "",
+    "answers": ["ReturnType ClassName::FunctionName(){}", "ReturnType ClassName.FunctionName(){}", "ReturnType ClassName->FunctionName(){}", "ReturnType ClassName::FunctionName{}"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 48,
+    "question": "Which of the following is true about the 'explicit' keyword in C++?",
+    "code": "",
+    "answers": ["'explicit' prevents implicit conversions", "'explicit' can be used with constructors", "'explicit' enhances code clarity and safety", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 49,
+    "question": "Which of the following is the correct way to define a function pointer in C++?",
+    "code": "",
+    "answers": ["ReturnType (*PointerName)(ParameterTypes);", "ReturnType PointerName(ParameterTypes);", "ReturnType &PointerName(ParameterTypes);", "ReturnType (*PointerName[ParameterTypes]);"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 50,
+    "question": "Which of the following is true about the std::map container in C++?",
+    "code": "",
+    "answers": ["std::map stores key-value pairs", "std::map automatically sorts the elements based on the keys", "std::map supports fast retrieval of values based on keys", "All of the above"],
+    "correctAnswer": 3
+  }
+]
