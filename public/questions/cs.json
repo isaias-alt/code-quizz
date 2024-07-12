@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following is the correct way to declare a constant in C#?",
+    "code": "",
+    "answers": ["const int x = 5;", "int const x = 5;", "#define x 5", "readonly int x = 5;"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "question": "What is the correct syntax to include a namespace in C#?",
+    "code": "",
+    "answers": ["using System;", "include System;", "import System;", "namespace System;"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is used to define a property in C#?",
+    "code": "",
+    "answers": ["public int MyProperty { get; set; }", "public int MyProperty()", "public int MyProperty[]", "public int MyProperty{}"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "Which of the following is true about a constructor in C#?",
+    "code": "",
+    "answers": ["A constructor is called when an object is destroyed", "A constructor is called when an object is created", "A constructor can be called manually", "None of the above"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 5,
+    "question": "What is the correct way to declare an array in C#?",
+    "code": "",
+    "answers": ["int[] arr = {1, 2, 3};", "int arr[] = {1, 2, 3};", "int arr = new int[]{1, 2, 3};", "All of the above"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 6,
+    "question": "Which of the following is used to handle exceptions in C#?",
+    "code": "",
+    "answers": ["try-catch block", "if-else block", "for loop", "switch-case block"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 7,
+    "question": "Which of the following is the correct way to declare a pointer in C#?",
+    "code": "",
+    "answers": ["unsafe int* ptr;", "int* ptr;", "unsafe int ptr*;", "int ptr*;"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is true about a destructor in C#?",
+    "code": "",
+    "answers": ["A destructor is called when an object is created", "A destructor is called when an object is destroyed", "A destructor can be called manually", "None of the above"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is used to define an indexer in C#?",
+    "code": "",
+    "answers": ["public int this[int index] { get; set; }", "public int this[int index]()", "public int this[int index][]", "public int this[int index]{}"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 10,
+    "question": "What is the correct way to declare a nullable type in C#?",
+    "code": "",
+    "answers": ["int? x = null;", "int x? = null;", "nullable int x = null;", "int x = null;"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 11,
+    "question": "Which of the following is the correct way to allocate memory dynamically in C#?",
+    "code": "",
+    "answers": ["int[] arr = new int[5];", "int arr = new int[5];", "int* arr = malloc(sizeof(int) * 5);", "int arr = malloc(sizeof(int) * 5);"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 12,
+    "question": "Which of the following is true about the 'this' keyword in C#?",
+    "code": "",
+    "answers": ["'this' is a reference to the current object", "'this' can be used to access static members", "'this' can be modified", "None of the above"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 13,
+    "question": "Which of the following is the correct way to declare a method in C#?",
+    "code": "",
+    "answers": ["void MyMethod();", "void MyMethod[];", "void MyMethod;", "void MyMethod{};"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 14,
+    "question": "Which of the following is used to define a generic class in C#?",
+    "code": "",
+    "answers": ["class MyClass<T>", "template class MyClass<T>", "generic class MyClass<T>", "class MyClass<template T>"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 15,
+    "question": "Which of the following is true about inheritance in C#?",
+    "code": "",
+    "answers": ["Inheritance allows code reusability", "Inheritance supports hierarchical classification", "Inheritance is used to define a new class based on an existing class", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 16,
+    "question": "Which of the following is the correct way to declare a read-only field in C#?",
+    "code": "",
+    "answers": ["readonly int x = 5;", "const int x = 5;", "static readonly int x = 5;", "Both A and C"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 17,
+    "question": "Which of the following is the correct way to initialize a list in C#?",
+    "code": "",
+    "answers": ["List<int> list = new List<int> {1, 2, 3};", "List<int> list = {1, 2, 3};", "List<int> list = new List<int> {1, 2, 3}[];", "List<int> list = new List<int>(1, 2, 3);"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 18,
+    "question": "Which of the following is true about polymorphism in C#?",
+    "code": "",
+    "answers": ["Polymorphism allows functions to have different forms", "Polymorphism supports method overloading", "Polymorphism supports operator overloading", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 19,
+    "question": "Which of the following is the correct way to define a namespace in C#?",
+    "code": "",
+    "answers": ["namespace MyNamespace {}", "namespace MyNamespace []", "namespace MyNamespace ()", "namespace MyNamespace <>"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 20,
+    "question": "Which of the following is the correct way to declare an abstract method in C#?",
+    "code": "",
+    "answers": ["public abstract void MyMethod();", "abstract public void MyMethod();", "public abstract MyMethod();", "abstract void MyMethod();"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 21,
+    "question": "Which of the following is true about static methods in C#?",
+    "code": "",
+    "answers": ["Static methods can access static members", "Static methods can be called without an instance", "Static methods cannot access instance members", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 22,
+    "question": "Which of the following is used to implement interfaces in C#?",
+    "code": "",
+    "answers": ["class MyClass : IMyInterface", "class MyClass implements IMyInterface", "class MyClass inherits IMyInterface", "class MyClass is IMyInterface"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 23,
+    "question": "Which of the following is the correct way to overload an operator in C#?",
+    "code": "",
+    "answers": ["public static MyClass operator+(MyClass a, MyClass b)", "public MyClass operator+(MyClass a, MyClass b)", "public MyClass operator+(MyClass a)", "public static MyClass operator+(MyClass a)"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 24,
+    "question": "Which of the following is true about delegates in C#?",
+    "code": "",
+    "answers": ["Delegates are type-safe function pointers", "Delegates can be used to define callback methods", "Delegates support method chaining", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 25,
+    "question": "Which of the following is the correct way to create an object in C#?",
+    "code": "",
+    "answers": ["MyClass obj = new MyClass();", "MyClass obj = MyClass();", "MyClass obj = new MyClass;", "MyClass obj = new MyClass[];"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 26,
+    "question": "Which of the following is used to define a partial class in C#?",
+    "code": "",
+    "answers": ["partial class MyClass", "partial MyClass", "class partial MyClass", "class MyClass partial"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 27,
+    "question": "Which of the following is the correct way to define an extension method in C#?",
+    "code": "",
+    "answers": ["public static void MyMethod(this MyClass obj)", "public void MyMethod(this MyClass obj)", "public static void MyMethod(MyClass obj)", "public void MyMethod(MyClass obj)"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 28,
+    "question": "Which of the following is used to handle events in C#?",
+    "code": "",
+    "answers": ["Event handlers", "Delegates", "Events", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 29,
+    "question": "Which of the following is the correct way to declare a tuple in C#?",
+    "code": "",
+    "answers": ["var tuple = (1, \"hello\");", "tuple<int, string> tuple = (1, \"hello\");", "tuple<int, string> tuple = {1, \"hello\"};", "var tuple = tuple(1, \"hello\");"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 30,
+    "question": "Which of the following is true about the 'ref' keyword in C#?",
+    "code": "",
+    "answers": ["'ref' allows passing arguments by reference", "'ref' can be used with methods", "'ref' improves performance by avoiding value copies", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 31,
+    "question": "Which of the following is the correct way to define a struct in C#?",
+    "code": "",
+    "answers": ["struct MyStruct {}", "struct MyStruct []", "struct MyStruct ()", "struct MyStruct <>"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 32,
+    "question": "Which of the following is true about a sealed class in C#?",
+    "code": "",
+    "answers": ["A sealed class cannot be inherited", "A sealed class can be instantiated", "A sealed class can have methods", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 33,
+    "question": "Which of the following is the correct way to declare a nullable reference type in C#?",
+    "code": "",
+    "answers": ["string? str = null;", "nullable string str = null;", "string str? = null;", "nullable<string> str = null;"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 34,
+    "question": "Which of the following is used to define a readonly property in C#?",
+    "code": "",
+    "answers": ["public int MyProperty { get; }", "public int MyProperty { get; private set; }", "public int MyProperty => _myProperty;", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 35,
+    "question": "Which of the following is true about the 'out' keyword in C#?",
+    "code": "",
+    "answers": ["'out' allows passing arguments by reference", "'out' parameters must be initialized before they are passed", "'out' parameters can be assigned a value within the method", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 36,
+    "question": "Which of the following is the correct way to define an interface in C#?",
+    "code": "",
+    "answers": ["interface IMyInterface {}", "interface IMyInterface []", "interface IMyInterface ()", "interface IMyInterface <>"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 37,
+    "question": "Which of the following is true about the 'lock' statement in C#?",
+    "code": "",
+    "answers": ["'lock' is used to synchronize access to a resource", "'lock' ensures that only one thread can access a resource at a time", "'lock' prevents race conditions", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 38,
+    "question": "Which of the following is the correct way to declare an anonymous type in C#?",
+    "code": "",
+    "answers": ["var obj = new { Name = \"John\", Age = 30 };", "var obj = { Name = \"John\", Age = 30 };", "var obj = new object { Name = \"John\", Age = 30 };", "var obj = object { Name = \"John\", Age = 30 };"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 39,
+    "question": "Which of the following is true about async methods in C#?",
+    "code": "",
+    "answers": ["Async methods allow asynchronous programming", "Async methods use the 'async' keyword", "Async methods can use the 'await' keyword", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 40,
+    "question": "Which of the following is the correct way to declare a lambda expression in C#?",
+    "code": "",
+    "answers": ["x => x * x", "(x) => { return x * x; }", "(x, y) => x + y", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 41,
+    "question": "Which of the following is used to define a generic method in C#?",
+    "code": "",
+    "answers": ["public void MyMethod<T>(T param)", "public void MyMethod(T param)", "public generic void MyMethod(T param)", "public generic void MyMethod<T>(T param)"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 42,
+    "question": "Which of the following is true about the 'yield' keyword in C#?",
+    "code": "",
+    "answers": ["'yield' is used to return elements one at a time", "'yield' can be used in an iterator block", "'yield' improves performance by generating elements on demand", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 43,
+    "question": "Which of the following is the correct way to define a switch expression in C#?",
+    "code": "",
+    "answers": ["var result = value switch { 1 => \"One\", 2 => \"Two\", _ => \"Other\" };", "var result = switch(value) { 1 => \"One\", 2 => \"Two\", _ => \"Other\" };", "var result = value switch (1 => \"One\", 2 => \"Two\", _ => \"Other\");", "var result = value switch { 1: \"One\", 2: \"Two\", _: \"Other\" };"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 44,
+    "question": "Which of the following is true about LINQ in C#?",
+    "code": "",
+    "answers": ["LINQ stands for Language Integrated Query", "LINQ allows querying of collections", "LINQ supports method syntax and query syntax", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 45,
+    "question": "Which of the following is the correct way to define a dictionary in C#?",
+    "code": "",
+    "answers": ["Dictionary<int, string> dict = new Dictionary<int, string>();", "var dict = new Dictionary<int, string>();", "Dictionary<int, string> dict = new Dictionary();", "Both A and B"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 46,
+    "question": "Which of the following is true about the 'base' keyword in C#?",
+    "code": "",
+    "answers": ["'base' is used to access members of the base class", "'base' can be used to call base class constructors", "'base' helps in implementing inheritance", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 47,
+    "question": "Which of the following is the correct way to define a namespace alias in C#?",
+    "code": "",
+    "answers": ["using alias = MyNamespace;", "using alias : MyNamespace;", "namespace alias = MyNamespace;", "namespace alias : MyNamespace;"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 48,
+    "question": "Which of the following is true about the 'nameof' operator in C#?",
+    "code": "",
+    "answers": ["'nameof' returns the name of a variable, type, or member as a string", "'nameof' is useful for refactoring", "'nameof' improves code readability", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 49,
+    "question": "Which of the following is the correct way to define a preprocessor directive in C#?",
+    "code": "",
+    "answers": ["#define DEBUG", "#if DEBUG", "#endif", "All of the above"],
+    "correctAnswer": 3
+  },
+  {
+    "id": 50,
+    "question": "Which of the following is true about the 'dynamic' keyword in C#?",
+    "code": "",
+    "answers": ["'dynamic' allows late binding", "'dynamic' bypasses compile-time type checking", "'dynamic' can store any type of data", "All of the above"],
+    "correctAnswer": 3
+  }
+]

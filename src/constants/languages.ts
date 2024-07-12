@@ -8,4 +8,5 @@ export const LANGUAGES: Language[] = [
   { value: 'c', label: 'C' },
   { value: 'java', label: 'Java' },
   { value: 'cpp', label: 'C++' },
+  { value: 'cs', label: 'C#' }
 ];
