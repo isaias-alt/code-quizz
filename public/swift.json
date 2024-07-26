@@ -1,0 +1,447 @@
+[
+  {
+    "id": 1,
+    "question": "What will the following code print?",
+    "code": "let greeting = \"Hello, World!\"\nprint(greeting)",
+    "answers": ["Hello, World!", "Hello", "World", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "question": "How do you declare a variable in Swift?",
+    "code": "",
+    "answers": ["var x: Int", "int x", "x = 5", "int x = 5"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 3,
+    "question": "What keyword is used to declare a constant in Swift?",
+    "code": "",
+    "answers": ["let", "const", "var", "static"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "What will the following code output?",
+    "code": "let x = 10\nlet y = 5\nprint(x + y)",
+    "answers": ["5", "10", "15", "Error"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 5,
+    "question": "How do you define an array in Swift?",
+    "code": "",
+    "answers": [
+      "let arr = []",
+      "var arr: [Int] = []",
+      "int arr[]",
+      "var arr = Array()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 6,
+    "question": "What will the following code output?",
+    "code": "let numbers = [1, 2, 3, 4, 5]\nprint(numbers[2])",
+    "answers": ["1", "2", "3", "4"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 7,
+    "question": "Which of the following is a valid function declaration in Swift?",
+    "code": "",
+    "answers": [
+      "func myFunction() {}",
+      "def myFunction() {}",
+      "function myFunction() {}",
+      "void myFunction() {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 8,
+    "question": "How do you call a function in Swift?",
+    "code": "",
+    "answers": [
+      "myFunction;",
+      "myFunction()",
+      "call myFunction()",
+      "execute myFunction()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 9,
+    "question": "What will the following code print?",
+    "code": "var x = 10\nx += 5\nprint(x)",
+    "answers": ["10", "5", "15", "Error"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 10,
+    "question": "How do you create a dictionary in Swift?",
+    "code": "",
+    "answers": [
+      "let dict = [:]",
+      "var dict = [String: Int]()",
+      "var dict = Dictionary()",
+      "dict = new Dictionary()"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 11,
+    "question": "What will the following code output?",
+    "code": "let dict = [\"a\": 1, \"b\": 2]\nprint(dict[\"a\"]!)",
+    "answers": ["1", "2", "a", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 12,
+    "question": "Which of the following is a valid class declaration in Swift?",
+    "code": "",
+    "answers": [
+      "class MyClass {}",
+      "class MyClass() {}",
+      "def class MyClass {}",
+      "class: MyClass {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 13,
+    "question": "How do you create an instance of a class in Swift?",
+    "code": "",
+    "answers": [
+      "let obj = MyClass()",
+      "let obj = new MyClass()",
+      "let obj: MyClass",
+      "MyClass obj = new MyClass()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 14,
+    "question": "What will the following code print?",
+    "code": "let x: Int? = nil\nprint(x)",
+    "answers": ["nil", "0", "undefined", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 15,
+    "question": "What keyword is used to handle errors in Swift?",
+    "code": "",
+    "answers": ["try", "catch", "throw", "handle"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 16,
+    "question": "Which method is used to add an element to an array in Swift?",
+    "code": "",
+    "answers": ["add()", "append()", "insert()", "push()"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 17,
+    "question": "What will the following code output?",
+    "code": "let str = \"Hello\"\nprint(str.count)",
+    "answers": ["4", "5", "6", "Error"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 18,
+    "question": "How do you create a range in Swift?",
+    "code": "",
+    "answers": [
+      "let range = 1...5",
+      "let range = 1..5",
+      "let range = [1,5]",
+      "let range = Range(1,5)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 19,
+    "question": "What will the following code print?",
+    "code": "let name = \"John\"\nprint(\"Hello, \\(name)!\")",
+    "answers": ["Hello, John!", "Hello, \\(name)!", "Hello, name!", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 20,
+    "question": "How do you declare an optional variable in Swift?",
+    "code": "",
+    "answers": [
+      "var x: Int?",
+      "var x: Optional Int",
+      "var x: Int!",
+      "var x = Optional Int"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 21,
+    "question": "What will the following code output?",
+    "code": "let arr = [1, 2, 3]\nprint(arr.first!)",
+    "answers": ["1", "2", "3", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 22,
+    "question": "Which keyword is used to define an enumeration in Swift?",
+    "code": "",
+    "answers": ["enum", "enumeration", "enumtype", "enumclass"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 23,
+    "question": "What will the following code output?",
+    "code": "enum Direction {\n    case north, south, east, west\n}\nlet dir = Direction.north\nprint(dir)",
+    "answers": ["north", "Direction.north", "0", "Error"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 24,
+    "question": "What is the correct way to create a for loop in Swift?",
+    "code": "",
+    "answers": [
+      "for i in 1...5 {}",
+      "for (i = 0; i < 5; i++) {}",
+      "for (i of [1,2,3,4,5]) {}",
+      "foreach (1...5) {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 25,
+    "question": "What will the following code print?",
+    "code": "let x = 10\nif x > 5 {\n    print(\"Greater\")\n} else {\n    print(\"Lesser\")\n}",
+    "answers": ["Greater", "Lesser", "10", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 26,
+    "question": "How do you handle nil values in Swift?",
+    "code": "",
+    "answers": ["using Optional", "using Nullable", "using nil", "using None"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 27,
+    "question": "What will the following code output?",
+    "code": "var str = \"Hello\"\nstr += \" World\"\nprint(str)",
+    "answers": ["Hello", "World", "Hello World", "Error"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 28,
+    "question": "How do you define a tuple in Swift?",
+    "code": "",
+    "answers": [
+      "let tuple = (1, \"Hello\")",
+      "let tuple = [1, \"Hello\"]",
+      "let tuple = {1, \"Hello\"}",
+      "let tuple = <1, \"Hello\">"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 29,
+    "question": "What will the following code print?",
+    "code": "let (a, b) = (1, 2)\nprint(a)",
+    "answers": ["1", "2", "(1, 2)", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 30,
+    "question": "How do you define a closure in Swift?",
+    "code": "",
+    "answers": [
+      "{ (parameters) -> returnType in statements }",
+      "{ parameters -> returnType: statements }",
+      "function(parameters) { statements }",
+      "(parameters) -> returnType: statements"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 31,
+    "question": "What will the following code output?",
+    "code": "let closure = { (a: Int, b: Int) -> Int in return a + b }\nprint(closure(2, 3))",
+    "answers": ["2", "3", "5", "Error"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 32,
+    "question": "Which of the following is a valid protocol declaration in Swift?",
+    "code": "",
+    "answers": [
+      "protocol MyProtocol {}",
+      "interface MyProtocol {}",
+      "MyProtocol: protocol {}",
+      "type MyProtocol {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 33,
+    "question": "How do you conform a class to a protocol in Swift?",
+    "code": "",
+    "answers": [
+      "class MyClass: MyProtocol {}",
+      "class MyClass implements MyProtocol {}",
+      "class MyClass conformsTo MyProtocol {}",
+      "class MyClass inherits MyProtocol {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 34,
+    "question": "What will the following code print?",
+    "code": "protocol Greetable {\n    func greet() -> String\n}\nclass Person: Greetable {\n    func greet() -> String {\n        return \"Hello\"\n    }\n}\nlet person = Person()\nprint(person.greet())",
+    "answers": ["Hello", "World", "Greetable", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 35,
+    "question": "Which keyword is used to declare a struct in Swift?",
+    "code": "",
+    "answers": ["struct", "class", "record", "data"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 36,
+    "question": "What will the following code output?",
+    "code": "struct Point {\n    var x = 0\n    var y = 0\n}\nlet p = Point(x: 10, y: 20)\nprint(p.x)",
+    "answers": ["0", "10", "20", "Error"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 37,
+    "question": "How do you define an initializer in a Swift class?",
+    "code": "",
+    "answers": [
+      "init() {}",
+      "constructor() {}",
+      "function init() {}",
+      "class MyClass() {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 38,
+    "question": "What will the following code print?",
+    "code": "class MyClass {\n    var value: Int\n    init(value: Int) {\n        self.value = value\n    }\n}\nlet obj = MyClass(value: 5)\nprint(obj.value)",
+    "answers": ["5", "0", "nil", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 39,
+    "question": "Which keyword is used to create a type alias in Swift?",
+    "code": "",
+    "answers": ["typealias", "alias", "typedef", "using"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 40,
+    "question": "What will the following code print?",
+    "code": "typealias Age = Int\nlet myAge: Age = 30\nprint(myAge)",
+    "answers": ["Age", "30", "Int", "Error"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 41,
+    "question": "How do you define a generic function in Swift?",
+    "code": "",
+    "answers": [
+      "func myFunction<T>(value: T) {}",
+      "function myFunction<T>(value: T) {}",
+      "def myFunction<T>(value: T) {}",
+      "myFunction<T>(value: T) {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 42,
+    "question": "What will the following code output?",
+    "code": "func swapValues<T>(a: inout T, b: inout T) {\n    let temp = a\n    a = b\n    b = temp\n}\nvar x = 1\nvar y = 2\nswapValues(a: &x, b: &y)\nprint(x, y)",
+    "answers": ["1 2", "2 1", "Error", "0 0"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 43,
+    "question": "How do you create an extension in Swift?",
+    "code": "",
+    "answers": [
+      "extension MyClass {}",
+      "extend MyClass {}",
+      "MyClass extension {}",
+      "MyClass: extend {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 44,
+    "question": "What will the following code print?",
+    "code": "extension String {\n    func greet() -> String {\n        return \"Hello, \\(self)\"\n    }\n}\nlet name = \"Swift\"\nprint(name.greet())",
+    "answers": ["Hello, Swift", "Hello, \\(self)", "Swift", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 45,
+    "question": "What keyword is used to inherit a class in Swift?",
+    "code": "",
+    "answers": [":", "extends", "inherits", "super"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 46,
+    "question": "What will the following code output?",
+    "code": "class Animal {\n    func sound() -> String {\n        return \"Generic Sound\"\n    }\n}\nclass Dog: Animal {\n    override func sound() -> String {\n        return \"Bark\"\n    }\n}\nlet myDog = Dog()\nprint(myDog.sound())",
+    "answers": ["Generic Sound", "Bark", "Dog", "Error"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 47,
+    "question": "Which of the following is a valid way to define a computed property in Swift?",
+    "code": "",
+    "answers": [
+      "var x: Int { return 5 }",
+      "var x: Int = { return 5 }",
+      "var x: Int -> 5",
+      "var x = 5"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 48,
+    "question": "What will the following code print?",
+    "code": "struct Circle {\n    var radius: Double\n    var circumference: Double {\n        return 2 * .pi * radius\n    }\n}\nlet circle = Circle(radius: 5)\nprint(circle.circumference)",
+    "answers": ["10", "15.7", "31.4", "Error"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 49,
+    "question": "How do you make a method throw an error in Swift?",
+    "code": "",
+    "answers": [
+      "func myMethod() throws {}",
+      "func myMethod() throw {}",
+      "func myMethod() error {}",
+      "func myMethod() catch {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 50,
+    "question": "What will the following code output?",
+    "code": "enum MyError: Error {\n    case runtimeError(String)\n}\nfunc throwError() throws {\n    throw MyError.runtimeError(\"This is an error\")\n}\ndo {\n    try throwError()\n} catch {\n    print(error)\n}",
+    "answers": [
+      "MyError.runtimeError(\"This is an error\")",
+      "This is an error",
+      "runtimeError",
+      "Error"
+    ],
+    "correctAnswer": 0
+  }
+]
