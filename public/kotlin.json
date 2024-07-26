@@ -1,0 +1,477 @@
+[
+  {
+    "id": 1,
+    "question": "What is the correct way to declare a variable in Kotlin?",
+    "code": "",
+    "answers": ["var x: Int = 5", "int x = 5", "x = 5", "let x = 5"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "question": "What is the keyword used to define a constant in Kotlin?",
+    "code": "",
+    "answers": ["const", "final", "val", "immutable"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 3,
+    "question": "How do you create a function in Kotlin?",
+    "code": "",
+    "answers": [
+      "fun myFunction() {}",
+      "function myFunction() {}",
+      "def myFunction() {}",
+      "void myFunction() {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "What will the following code output?",
+    "code": "fun main() {\n    val a = 5\n    val b = 10\n    println(a + b)\n}",
+    "answers": ["5", "10", "15", "Error"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 5,
+    "question": "How do you define a nullable variable in Kotlin?",
+    "code": "",
+    "answers": ["var x: Int?", "var x: Int!", "var x: ?Int", "var x: Int*"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 6,
+    "question": "What will the following code output?",
+    "code": "val x: Int? = null\nprintln(x ?: 10)",
+    "answers": ["null", "0", "10", "Error"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 7,
+    "question": "How do you handle a null pointer exception in Kotlin?",
+    "code": "",
+    "answers": [
+      "try-catch block",
+      "safe call operator (?.)",
+      "elvis operator (?:)",
+      "All of the above"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 8,
+    "question": "What is the correct syntax for a when expression in Kotlin?",
+    "code": "",
+    "answers": [
+      "when (x) { 1 -> println(\"One\") }",
+      "switch (x) { case 1: println(\"One\") }",
+      "if x == 1 { println(\"One\") }",
+      "match x { 1: println(\"One\") }"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 9,
+    "question": "How do you declare a class in Kotlin?",
+    "code": "",
+    "answers": [
+      "class MyClass {}",
+      "class MyClass[] {}",
+      "class MyClass() {}",
+      "MyClass class {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 10,
+    "question": "What will the following code output?",
+    "code": "class Person(val name: String)\nval person = Person(\"John\")\nprintln(person.name)",
+    "answers": ["Person", "John", "name", "Error"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 11,
+    "question": "How do you create a data class in Kotlin?",
+    "code": "",
+    "answers": [
+      "data class MyClass(val x: Int)",
+      "class data MyClass(val x: Int)",
+      "data MyClass(val x: Int)",
+      "class MyClass data(val x: Int)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 12,
+    "question": "What is the output of the following code?",
+    "code": "data class User(val name: String, val age: Int)\nval user = User(\"Alice\", 30)\nprintln(user)",
+    "answers": ["User(name=Alice, age=30)", "Alice, 30", "User", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 13,
+    "question": "How do you inherit a class in Kotlin?",
+    "code": "",
+    "answers": [
+      "class MyClass: SuperClass()",
+      "class MyClass extends SuperClass()",
+      "class MyClass inherits SuperClass()",
+      "class MyClass(SuperClass)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 14,
+    "question": "What will the following code output?",
+    "code": "open class Animal {\n    open fun sound() = \"Generic Sound\"\n}\nclass Dog : Animal() {\n    override fun sound() = \"Bark\"\n}\nval dog = Dog()\nprintln(dog.sound())",
+    "answers": ["Generic Sound", "Bark", "Dog", "Error"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 15,
+    "question": "How do you define an interface in Kotlin?",
+    "code": "",
+    "answers": [
+      "interface MyInterface {}",
+      "MyInterface interface {}",
+      "interface: MyInterface {}",
+      "define MyInterface {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 16,
+    "question": "What is the output of the following code?",
+    "code": "interface Greetable {\n    fun greet(): String\n}\nclass Person : Greetable {\n    override fun greet() = \"Hello\"\n}\nval person = Person()\nprintln(person.greet())",
+    "answers": ["Hello", "World", "Greetable", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 17,
+    "question": "How do you create a singleton in Kotlin?",
+    "code": "",
+    "answers": [
+      "object MySingleton {}",
+      "singleton MySingleton {}",
+      "class MySingleton {}",
+      "MySingleton()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 18,
+    "question": "What will the following code output?",
+    "code": "object MySingleton {\n    val x = 10\n}\nprintln(MySingleton.x)",
+    "answers": ["0", "10", "MySingleton", "Error"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 19,
+    "question": "How do you declare an extension function in Kotlin?",
+    "code": "",
+    "answers": [
+      "fun String.print() { println(this) }",
+      "fun String: print() { println(this) }",
+      "extend String { fun print() { println(this) } }",
+      "String.print() { println(this) }"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 20,
+    "question": "What is the output of the following code?",
+    "code": "fun String.greet() = \"Hello, $this\"\nval name = \"Kotlin\"\nprintln(name.greet())",
+    "answers": ["Hello, Kotlin", "Hello, $this", "Kotlin", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 21,
+    "question": "How do you define a lambda expression in Kotlin?",
+    "code": "",
+    "answers": [
+      "val lambda = { x: Int -> x * 2 }",
+      "val lambda = (x: Int) => x * 2",
+      "val lambda = lambda x: Int => x * 2",
+      "val lambda = [x: Int -> x * 2]"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 22,
+    "question": "What will the following code output?",
+    "code": "val numbers = listOf(1, 2, 3)\nval doubled = numbers.map { it * 2 }\nprintln(doubled)",
+    "answers": ["[1, 2, 3]", "[2, 4, 6]", "1, 2, 3", "Error"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 23,
+    "question": "How do you declare a sealed class in Kotlin?",
+    "code": "",
+    "answers": [
+      "sealed class MyClass",
+      "sealed MyClass",
+      "class MyClass: sealed",
+      "sealed: MyClass"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 24,
+    "question": "What is the output of the following code?",
+    "code": "sealed class Shape\nclass Circle(val radius: Double) : Shape()\nclass Square(val side: Double) : Shape()\nval shape: Shape = Circle(5.0)\nwhen (shape) {\n    is Circle -> println(\"Circle with radius ${shape.radius}\")\n    is Square -> println(\"Square with side ${shape.side}\")\n}",
+    "answers": [
+      "Circle with radius 5.0",
+      "Square with side 5.0",
+      "Shape",
+      "Error"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 25,
+    "question": "How do you create a higher-order function in Kotlin?",
+    "code": "",
+    "answers": [
+      "fun higherOrder(func: (Int) -> Int)",
+      "fun higherOrder(func: function(Int): Int)",
+      "fun higherOrder(func: Function)",
+      "fun higherOrder(func: Int => Int)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 26,
+    "question": "What is the output of the following code?",
+    "code": "fun applyFunction(x: Int, func: (Int) -> Int): Int {\n    return func(x)\n}\nval result = applyFunction(5) { it * 2 }\nprintln(result)",
+    "answers": ["10", "5", "2", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 27,
+    "question": "How do you create a range in Kotlin?",
+    "code": "",
+    "answers": [
+      "val range = 1..10",
+      "val range = range(1, 10)",
+      "val range = 1 to 10",
+      "val range = [1..10]"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 28,
+    "question": "What is the output of the following code?",
+    "code": "for (i in 1..3) {\n    println(i)\n}",
+    "answers": ["1 2 3", "0 1 2 3", "1 2", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 29,
+    "question": "How do you create a coroutine in Kotlin?",
+    "code": "",
+    "answers": [
+      "launch { ... }",
+      "async { ... }",
+      "suspend { ... }",
+      "coroutine { ... }"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 30,
+    "question": "What is the output of the following code?",
+    "code": "import kotlinx.coroutines.*\n\nfun main() = runBlocking {\n    launch {\n        delay(1000L)\n        println(\"World!\")\n    }\n    println(\"Hello,\")\n}",
+    "answers": ["Hello, World!", "World! Hello,", "Hello,", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 31,
+    "question": "How do you define a suspend function in Kotlin?",
+    "code": "",
+    "answers": [
+      "suspend fun myFunction() {}",
+      "fun suspend myFunction() {}",
+      "fun myFunction suspend() {}",
+      "suspend myFunction() {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 32,
+    "question": "What will the following code output?",
+    "code": "suspend fun myFunction() {\n    delay(1000L)\n    println(\"Done\")\n}\nrunBlocking {\n    myFunction()\n}",
+    "answers": ["Done", "Error", "Delay", "Nothing"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 33,
+    "question": "How do you create an array in Kotlin?",
+    "code": "",
+    "answers": [
+      "val arr = arrayOf(1, 2, 3)",
+      "val arr = [1, 2, 3]",
+      "val arr = {1, 2, 3}",
+      "val arr = (1, 2, 3)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 34,
+    "question": "What is the output of the following code?",
+    "code": "val arr = arrayOf(1, 2, 3)\nprintln(arr.size)",
+    "answers": ["3", "2", "1", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 35,
+    "question": "How do you create an immutable list in Kotlin?",
+    "code": "",
+    "answers": [
+      "val list = listOf(1, 2, 3)",
+      "val list = mutableListOf(1, 2, 3)",
+      "val list = arrayListOf(1, 2, 3)",
+      "val list = {1, 2, 3}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 36,
+    "question": "What is the output of the following code?",
+    "code": "val list = listOf(1, 2, 3)\nprintln(list[1])",
+    "answers": ["2", "1", "3", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 37,
+    "question": "How do you create a mutable map in Kotlin?",
+    "code": "",
+    "answers": [
+      "val map = mutableMapOf(\"key\" to \"value\")",
+      "val map = mapOf(\"key\" to \"value\")",
+      "val map = hashmapOf(\"key\" to \"value\")",
+      "val map = {\"key\": \"value\"}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 38,
+    "question": "What will the following code output?",
+    "code": "val map = mutableMapOf(\"one\" to 1, \"two\" to 2)\nmap[\"three\"] = 3\nprintln(map[\"three\"])",
+    "answers": ["3", "1", "2", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 39,
+    "question": "How do you iterate over a map in Kotlin?",
+    "code": "",
+    "answers": [
+      "for ((key, value) in map)",
+      "for (key, value in map)",
+      "map.each { (key, value) }",
+      "map.forEach { (key, value) }"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 40,
+    "question": "What is the output of the following code?",
+    "code": "val map = mapOf(\"a\" to 1, \"b\" to 2)\nfor ((key, value) in map) {\n    println(\"$key = $value\")\n}",
+    "answers": ["a = 1\nb = 2", "a = 1", "b = 2", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 41,
+    "question": "How do you create a nested class in Kotlin?",
+    "code": "",
+    "answers": [
+      "class Outer {\n    class Nested {}\n}",
+      "class Outer {\n    nested class Nested {}\n}",
+      "class Outer {\n    inner class Nested {}\n}",
+      "class Outer {\n    class Nested() {}\n}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 42,
+    "question": "What is the output of the following code?",
+    "code": "class Outer {\n    class Nested {\n        fun foo() = \"Nested\"\n    }\n}\nval nested = Outer.Nested()\nprintln(nested.foo())",
+    "answers": ["Nested", "Outer", "foo", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 43,
+    "question": "How do you define an inner class in Kotlin?",
+    "code": "",
+    "answers": [
+      "class Outer {\n    inner class Inner {}\n}",
+      "class Outer {\n    nested class Inner {}\n}",
+      "class Outer {\n    innerclass Inner {}\n}",
+      "class Outer {\n    class Inner {}\n}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 44,
+    "question": "What will the following code output?",
+    "code": "class Outer {\n    private val bar: Int = 1\n    inner class Inner {\n        fun foo() = bar\n    }\n}\nval inner = Outer().Inner()\nprintln(inner.foo())",
+    "answers": ["1", "bar", "Inner", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 45,
+    "question": "How do you define an enum class in Kotlin?",
+    "code": "",
+    "answers": [
+      "enum class Direction { NORTH, SOUTH, EAST, WEST }",
+      "enum Direction { NORTH, SOUTH, EAST, WEST }",
+      "enum Direction() { NORTH, SOUTH, EAST, WEST }",
+      "Direction enum { NORTH, SOUTH, EAST, WEST }"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 46,
+    "question": "What is the output of the following code?",
+    "code": "enum class Color { RED, GREEN, BLUE }\nval color = Color.RED\nprintln(color)",
+    "answers": ["RED", "GREEN", "BLUE", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 47,
+    "question": "How do you define a generic class in Kotlin?",
+    "code": "",
+    "answers": [
+      "class Box<T>(val value: T)",
+      "class Box<type>(val value: type)",
+      "class Box[T](val value: T)",
+      "class Box(T)(val value: T)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 48,
+    "question": "What will the following code output?",
+    "code": "class Box<T>(val value: T)\nval box = Box(5)\nprintln(box.value)",
+    "answers": ["5", "value", "Box", "Error"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 49,
+    "question": "How do you create an extension function in Kotlin?",
+    "code": "",
+    "answers": [
+      "fun String.addExclamation(): String = this + \"!\"",
+      "fun String.addExclamation() { this + \"!\" }",
+      "extension String.addExclamation() { this + \"!\" }",
+      "extend fun String.addExclamation(): String { this + \"!\" }"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 50,
+    "question": "What is the output of the following code?",
+    "code": "fun String.addExclamation(): String = this + \"!\"\nprintln(\"Hello\".addExclamation())",
+    "answers": ["Hello!", "Hello", "Error", "Hello!Hello"],
+    "correctAnswer": 0
+  }
+]
