@@ -12,4 +12,5 @@ export const LANGUAGES: Language[] = [
   { value: "php", label: "PHP" },
   { value: "swift", label: "Swift" },
   { value: "kotlin", label: "Kotlin" },
+  { value: "go", label: "Go" },
 ];

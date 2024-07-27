@@ -1,0 +1,427 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cómo defines una función en Go?",
+    "code": "",
+    "answers": [
+      "func myFunction() {}",
+      "function myFunction() {}",
+      "def myFunction() {}",
+      "fn myFunction() {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "question": "¿Cómo se declara una variable en Go?",
+    "code": "",
+    "answers": ["var x int", "x := int", "let x: int", "int x"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 3,
+    "question": "¿Qué palabra clave se usa para declarar una constante en Go?",
+    "code": "",
+    "answers": ["const", "let", "final", "static"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "¿Cuál es el tipo de dato para cadenas de texto en Go?",
+    "code": "",
+    "answers": ["string", "str", "text", "char"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 5,
+    "question": "¿Cómo se crea un array en Go?",
+    "code": "",
+    "answers": [
+      "var arr [5]int",
+      "var arr = [5]int{}",
+      "arr := [5]int{}",
+      "array arr [5]int"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 6,
+    "question": "¿Cómo se crea una slice en Go?",
+    "code": "",
+    "answers": [
+      "var s []int",
+      "var s = []int{}",
+      "slice s []int",
+      "s := []int{}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 7,
+    "question": "¿Cuál es la palabra clave para crear un bucle for en Go?",
+    "code": "",
+    "answers": ["for", "while", "loop", "iterate"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 8,
+    "question": "¿Qué palabra clave se utiliza para manejar errores en Go?",
+    "code": "",
+    "answers": ["error", "catch", "exception", "err"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 9,
+    "question": "¿Cómo se declara un mapa en Go?",
+    "code": "",
+    "answers": [
+      "var m map[string]int",
+      "var m = map[string]int{}",
+      "map m[string]int",
+      "m := map[string]int{}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 10,
+    "question": "¿Qué tipo de dato se utiliza para números enteros en Go?",
+    "code": "",
+    "answers": ["int", "integer", "num", "number"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 11,
+    "question": "¿Cómo se inicia un servidor HTTP en Go?",
+    "code": "",
+    "answers": [
+      "http.ListenAndServe",
+      "http.StartServer",
+      "http.ServerStart",
+      "http.NewServer"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 12,
+    "question": "¿Cuál es la palabra clave para declarar una estructura en Go?",
+    "code": "",
+    "answers": ["struct", "class", "object", "record"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 13,
+    "question": "¿Cómo se llama al recolector de basura de Go?",
+    "code": "",
+    "answers": ["GC", "Garbage Collector", "Memory Manager", "Auto Cleaner"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 14,
+    "question": "¿Qué palabra clave se usa para declarar una goroutine en Go?",
+    "code": "",
+    "answers": ["go", "routine", "async", "co"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 15,
+    "question": "¿Cómo se maneja la concurrencia en Go?",
+    "code": "",
+    "answers": ["Goroutines", "Threads", "Processes", "Fibers"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 16,
+    "question": "¿Cómo se define una función anónima en Go?",
+    "code": "",
+    "answers": ["func() {}", "anon() {}", "lambda() {}", "fn() {}"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 17,
+    "question": "¿Qué paquete se utiliza para la entrada y salida en Go?",
+    "code": "",
+    "answers": ["fmt", "io", "os", "input"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 18,
+    "question": "¿Cuál es la función principal en un programa de Go?",
+    "code": "",
+    "answers": ["main", "start", "init", "run"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 19,
+    "question": "¿Cómo se maneja el acceso a archivos en Go?",
+    "code": "",
+    "answers": ["os.Open", "file.Open", "fs.Open", "io.Open"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 20,
+    "question": "¿Cómo se declara un puntero en Go?",
+    "code": "",
+    "answers": ["var p *int", "var p &int", "var p @int", "var p ^int"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 21,
+    "question": "¿Cuál es el operador para acceder al valor apuntado por un puntero?",
+    "code": "",
+    "answers": ["*", "&", "@", "^"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 22,
+    "question": "¿Cómo se compara si dos variables son iguales en Go?",
+    "code": "",
+    "answers": ["==", "=", "equals", "==="],
+    "correctAnswer": 0
+  },
+  {
+    "id": 23,
+    "question": "¿Cuál es la función para convertir una cadena a un entero en Go?",
+    "code": "",
+    "answers": ["strconv.Atoi", "strconv.ParseInt", "parseInt", "int.Parse"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 24,
+    "question": "¿Qué palabra clave se utiliza para importar paquetes en Go?",
+    "code": "",
+    "answers": ["import", "include", "use", "require"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 25,
+    "question": "¿Cuál es el formato correcto para una declaración de función en Go?",
+    "code": "",
+    "answers": [
+      "func myFunc(x int) int",
+      "function myFunc(x int) int",
+      "def myFunc(x int): int",
+      "fn myFunc(x: int) -> int"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 26,
+    "question": "¿Cómo se declara un paquete en un archivo de Go?",
+    "code": "",
+    "answers": [
+      "package main",
+      "module main",
+      "namespace main",
+      "project main"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 27,
+    "question": "¿Qué tipo de dato se utiliza para valores booleanos en Go?",
+    "code": "",
+    "answers": ["bool", "boolean", "bit", "binary"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 28,
+    "question": "¿Qué función se usa para imprimir en consola en Go?",
+    "code": "",
+    "answers": ["fmt.Println", "fmt.Print", "console.log", "print"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 29,
+    "question": "¿Cuál es el tipo de dato para números de punto flotante en Go?",
+    "code": "",
+    "answers": ["float64", "float32", "double", "decimal"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 30,
+    "question": "¿Cómo se declara una interfaz en Go?",
+    "code": "",
+    "answers": [
+      "type MyInterface interface {}",
+      "interface MyInterface {}",
+      "type MyInterface {}",
+      "interface MyInterface {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 31,
+    "question": "¿Qué palabra clave se usa para crear un canal en Go?",
+    "code": "",
+    "answers": ["chan", "channel", "pipe", "stream"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 32,
+    "question": "¿Cuál es el operador de envío de datos a un canal en Go?",
+    "code": "",
+    "answers": ["<-", "->", "=>", "<>"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 33,
+    "question": "¿Qué palabra clave se usa para definir una función en una estructura en Go?",
+    "code": "",
+    "answers": [
+      "func (s *StructName) MethodName() {}",
+      "def (s *StructName) MethodName() {}",
+      "method (s *StructName) MethodName() {}",
+      "function (s *StructName) MethodName() {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 34,
+    "question": "¿Cómo se usa la declaración if en Go?",
+    "code": "",
+    "answers": [
+      "if x > 0 {}",
+      "if x > 0 then {}",
+      "if (x > 0) {}",
+      "if x > 0 do {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 35,
+    "question": "¿Cuál es el valor cero de una variable string en Go?",
+    "code": "",
+    "answers": ["\"\"", "null", "undefined", "\"null\""],
+    "correctAnswer": 0
+  },
+  {
+    "id": 36,
+    "question": "¿Qué operador se usa para concatenar cadenas en Go?",
+    "code": "",
+    "answers": ["+", "&", "&&", "."],
+    "correctAnswer": 0
+  },
+  {
+    "id": 37,
+    "question": "¿Cómo se manejan las excepciones en Go?",
+    "code": "",
+    "answers": [
+      "No se utilizan excepciones; se manejan errores explícitamente",
+      "try/catch",
+      "throw/catch",
+      "exception handling"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 38,
+    "question": "¿Cuál es el comando para compilar un programa de Go?",
+    "code": "",
+    "answers": ["go build", "go compile", "go make", "go run"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 39,
+    "question": "¿Cómo se asigna un valor a una estructura en Go?",
+    "code": "",
+    "answers": [
+      "s := StructName{field: value}",
+      "s := StructName(field: value)",
+      "s := new StructName{field: value}",
+      "s := StructName->new(field: value)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 40,
+    "question": "¿Qué palabra clave se usa para crear una estructura anónima en Go?",
+    "code": "",
+    "answers": ["struct{}", "anon{}", "anonymous{}", "record{}"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 41,
+    "question": "¿Cómo se declara un paquete principal en Go?",
+    "code": "",
+    "answers": [
+      "package main",
+      "module main",
+      "namespace main",
+      "project main"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 42,
+    "question": "¿Qué función se usa para detener la ejecución de un programa en Go?",
+    "code": "",
+    "answers": ["os.Exit", "sys.exit", "terminate", "exit"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 43,
+    "question": "¿Cómo se define una variable global en Go?",
+    "code": "",
+    "answers": [
+      "var GlobalVar = value",
+      "global GlobalVar = value",
+      "let GlobalVar = value",
+      "const GlobalVar = value"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 44,
+    "question": "¿Qué palabra clave se utiliza para iterar sobre una colección en Go?",
+    "code": "",
+    "answers": ["range", "each", "forEach", "loop"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 45,
+    "question": "¿Qué operador se usa para verificar si una clave existe en un mapa en Go?",
+    "code": "",
+    "answers": [", ok", "exists", "in", "?"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 46,
+    "question": "¿Cómo se llama al recolector de basura de Go?",
+    "code": "",
+    "answers": ["GC", "Garbage Collector", "Memory Manager", "Auto Cleaner"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 47,
+    "question": "¿Cuál es la herramienta de gestión de dependencias más común en Go?",
+    "code": "",
+    "answers": ["go mod", "dep", "glide", "vgo"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 48,
+    "question": "¿Cómo se define una estructura en Go?",
+    "code": "",
+    "answers": [
+      "type MyStruct struct {}",
+      "struct MyStruct {}",
+      "type MyStruct {}",
+      "record MyStruct {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 49,
+    "question": "¿Qué función se usa para copiar un slice en Go?",
+    "code": "",
+    "answers": ["copy", "duplicate", "slice", "arraycopy"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 50,
+    "question": "¿Qué palabra clave se utiliza para declarar un alias de tipo en Go?",
+    "code": "",
+    "answers": ["type", "alias", "typedef", "using"],
+    "correctAnswer": 0
+  }
+]
