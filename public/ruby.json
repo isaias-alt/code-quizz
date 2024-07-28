@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué comando se usa para imprimir texto en Ruby?",
+    "code": "",
+    "answers": ["puts", "print", "echo", "write"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "question": "¿Cómo se declara una variable en Ruby?",
+    "code": "",
+    "answers": [
+      "variable = value",
+      "let variable = value",
+      "var variable = value",
+      "const variable = value"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 3,
+    "question": "¿Qué método se usa para convertir un string a un número entero en Ruby?",
+    "code": "",
+    "answers": ["to_i", "parseInt", "to_int", "convert_to_integer"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "¿Cómo se define una clase en Ruby?",
+    "code": "",
+    "answers": [
+      "class ClassName",
+      "define ClassName",
+      "class = ClassName",
+      "class(ClassName)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 5,
+    "question": "¿Cómo se crea un método en Ruby?",
+    "code": "",
+    "answers": [
+      "def method_name",
+      "function method_name",
+      "method method_name",
+      "create method_name"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 6,
+    "question": "¿Qué operador se usa para la concatenación de strings en Ruby?",
+    "code": "",
+    "answers": ["+", "&", "&&", "."],
+    "correctAnswer": 0
+  },
+  {
+    "id": 7,
+    "question": "¿Cómo se comenta una línea en Ruby?",
+    "code": "",
+    "answers": ["#", "//", "/* */", "<!-- -->"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 8,
+    "question": "¿Qué método se usa para obtener la longitud de un array en Ruby?",
+    "code": "",
+    "answers": ["length", "size", "count", "all"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 9,
+    "question": "¿Cómo se accede a la primera posición de un array en Ruby?",
+    "code": "",
+    "answers": ["array[0]", "array.first", "array[1]", "array.start"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 10,
+    "question": "¿Cómo se convierte un string a un array de caracteres en Ruby?",
+    "code": "",
+    "answers": ["split('')", "chars", "to_a", "array"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 11,
+    "question": "¿Cuál es el valor booleano de nil en Ruby?",
+    "code": "",
+    "answers": ["false", "true", "undefined", "null"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 12,
+    "question": "¿Qué método se usa para obtener una parte de un string en Ruby?",
+    "code": "",
+    "answers": ["slice", "substring", "substr", "cut"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 13,
+    "question": "¿Cómo se define un hash en Ruby?",
+    "code": "",
+    "answers": [
+      "{key: value}",
+      "[key: value]",
+      "{key => value}",
+      "[key => value]"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 14,
+    "question": "¿Qué método se usa para verificar si un hash contiene una clave específica?",
+    "code": "",
+    "answers": ["key?", "has_key?", "contains?", "include_key?"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 15,
+    "question": "¿Qué palabra clave se usa para crear un módulo en Ruby?",
+    "code": "",
+    "answers": ["module", "mod", "package", "namespace"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 16,
+    "question": "¿Cómo se invoca un método de instancia en Ruby?",
+    "code": "",
+    "answers": [
+      "instance.method",
+      "instance:method",
+      "instance->method",
+      "instance::method"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 17,
+    "question": "¿Cómo se define un método privado en Ruby?",
+    "code": "",
+    "answers": [
+      "private def method_name",
+      "def private method_name",
+      "def method_name private",
+      "private method_name"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 18,
+    "question": "¿Qué operador se usa para verificar la igualdad en Ruby?",
+    "code": "",
+    "answers": ["==", "=", "===", "equals"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 19,
+    "question": "¿Cómo se maneja una excepción en Ruby?",
+    "code": "",
+    "answers": [
+      "begin...rescue",
+      "try...catch",
+      "catch...throw",
+      "try...except"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 20,
+    "question": "¿Qué método se usa para convertir un símbolo a un string en Ruby?",
+    "code": "",
+    "answers": ["to_s", "to_str", "to_string", "convert"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 21,
+    "question": "¿Cómo se declara una constante en Ruby?",
+    "code": "",
+    "answers": [
+      "CONSTANT = value",
+      "const CONSTANT = value",
+      "constant CONSTANT = value",
+      "let CONSTANT = value"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 22,
+    "question": "¿Qué método se usa para eliminar espacios en blanco de los extremos de un string en Ruby?",
+    "code": "",
+    "answers": ["strip", "trim", "chomp", "clean"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 23,
+    "question": "¿Cómo se invoca un método de clase en Ruby?",
+    "code": "",
+    "answers": [
+      "ClassName.method",
+      "ClassName:method",
+      "ClassName->method",
+      "ClassName::method"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 24,
+    "question": "¿Qué palabra clave se usa para definir un bucle en Ruby?",
+    "code": "",
+    "answers": ["while", "loop", "for", "do"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 25,
+    "question": "¿Cómo se define un método de clase en Ruby?",
+    "code": "",
+    "answers": [
+      "def self.method_name",
+      "def class.method_name",
+      "def method_name.class",
+      "def ClassName.method_name"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 26,
+    "question": "¿Qué palabra clave se usa para definir una herencia en Ruby?",
+    "code": "",
+    "answers": ["<", "extends", "inherits", "super"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 27,
+    "question": "¿Qué método se usa para agregar un elemento a un array en Ruby?",
+    "code": "",
+    "answers": ["push", "add", "append", "insert"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 28,
+    "question": "¿Cómo se accede a una variable de instancia dentro de un método en Ruby?",
+    "code": "",
+    "answers": ["@variable", "self.variable", "$variable", "variable"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 29,
+    "question": "¿Qué método se usa para obtener el tipo de un objeto en Ruby?",
+    "code": "",
+    "answers": ["class", "type", "typeof", "object_type"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 30,
+    "question": "¿Qué operador se usa para la asignación en Ruby?",
+    "code": "",
+    "answers": ["=", "==", "->", "<-"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 31,
+    "question": "¿Cómo se define un rango en Ruby?",
+    "code": "",
+    "answers": ["1..10", "range(1, 10)", "[1, 10]", "{1..10}"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 32,
+    "question": "¿Qué método se usa para ordenar un array en Ruby?",
+    "code": "",
+    "answers": ["sort", "order", "arrange", "sequence"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 33,
+    "question": "¿Qué palabra clave se usa para definir un módulo en Ruby?",
+    "code": "",
+    "answers": ["module", "mod", "package", "namespace"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 34,
+    "question": "¿Cómo se crea un objeto de una clase en Ruby?",
+    "code": "",
+    "answers": [
+      "ClassName.new",
+      "new ClassName",
+      "create ClassName",
+      "ClassName.create"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 35,
+    "question": "¿Qué método se usa para convertir un array a un string en Ruby?",
+    "code": "",
+    "answers": ["join", "concat", "to_s", "to_string"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 36,
+    "question": "¿Qué método se usa para iterar sobre cada elemento de un array en Ruby?",
+    "code": "",
+    "answers": ["each", "forEach", "map", "collect"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 37,
+    "question": "¿Cómo se accede a una variable global en Ruby?",
+    "code": "",
+    "answers": ["$variable", "@variable", "self.variable", "global.variable"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 38,
+    "question": "¿Qué método se usa para convertir un hash a un array en Ruby?",
+    "code": "",
+    "answers": ["to_a", "to_array", "convert_to_array", "array"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 39,
+    "question": "¿Cómo se verifica si un array está vacío en Ruby?",
+    "code": "",
+    "answers": ["empty?", "nil?", "blank?", "void?"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 40,
+    "question": "¿Cómo se define un método de instancia en Ruby?",
+    "code": "",
+    "answers": [
+      "def method_name",
+      "function method_name",
+      "method method_name",
+      "create method_name"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 41,
+    "question": "¿Qué método se usa para eliminar un elemento de un array en Ruby?",
+    "code": "",
+    "answers": ["delete", "remove", "pop", "shift"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 42,
+    "question": "¿Cómo se verifica si un hash contiene un valor específico en Ruby?",
+    "code": "",
+    "answers": ["value?", "has_value?", "contains?", "include_value?"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 43,
+    "question": "¿Qué método se usa para dividir un string en un array en Ruby?",
+    "code": "",
+    "answers": ["split", "divide", "chunk", "segment"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 44,
+    "question": "¿Cómo se convierte un array a un hash en Ruby?",
+    "code": "",
+    "answers": ["to_h", "to_hash", "convert_to_hash", "hash"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 45,
+    "question": "¿Qué método se usa para eliminar espacios en blanco solo del lado derecho de un string en Ruby?",
+    "code": "",
+    "answers": ["rstrip", "lstrip", "trim_right", "chomp"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 46,
+    "question": "¿Cómo se define un método de clase en Ruby?",
+    "code": "",
+    "answers": [
+      "def self.method_name",
+      "def class.method_name",
+      "def method_name.class",
+      "def ClassName.method_name"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 47,
+    "question": "¿Qué método se usa para eliminar el último elemento de un array en Ruby?",
+    "code": "",
+    "answers": ["pop", "remove_last", "shift", "delete_last"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 48,
+    "question": "¿Qué método se usa para verificar si un string contiene un substring en Ruby?",
+    "code": "",
+    "answers": ["include?", "contains?", "has?", "exists?"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 49,
+    "question": "¿Qué método se usa para convertir un número entero a un string en Ruby?",
+    "code": "",
+    "answers": ["to_s", "to_string", "to_str", "stringify"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 50,
+    "question": "¿Cómo se define un rango excluyente en Ruby?",
+    "code": "",
+    "answers": [
+      "1...10",
+      "range(1, 10, exclusive: true)",
+      "[1..10)",
+      "{1..10}"
+    ],
+    "correctAnswer": 0
+  }
+]
