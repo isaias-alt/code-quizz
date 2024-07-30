@@ -38,14 +38,24 @@
     "id": 6,
     "question": "Which of the following is true about a constructor in Java?",
     "code": "",
-    "answers": ["A constructor must have a return type", "A constructor is called when an object is created", "A constructor can be abstract", "A constructor is called explicitly"],
+    "answers": [
+      "A constructor must have a return type",
+      "A constructor is called when an object is created",
+      "A constructor can be abstract",
+      "A constructor is called explicitly"
+    ],
     "correctAnswer": 1
   },
   {
     "id": 7,
     "question": "Which of the following is the correct way to declare a multidimensional array in Java?",
     "code": "",
-    "answers": ["int arr[][];", "int arr[3,3];", "int[] arr[];", "int arr[3][3];"],
+    "answers": [
+      "int arr[][];",
+      "int arr[3,3];",
+      "int[] arr[];",
+      "int arr[3][3];"
+    ],
     "correctAnswer": 0
   },
   {
@@ -94,21 +104,36 @@
     "id": 14,
     "question": "Which of the following is the correct way to declare a constant in Java?",
     "code": "",
-    "answers": ["final int CONSTANT = 10;", "const int CONSTANT = 10;", "int constant = 10;", "final constant int = 10;"],
+    "answers": [
+      "final int CONSTANT = 10;",
+      "const int CONSTANT = 10;",
+      "int constant = 10;",
+      "final constant int = 10;"
+    ],
     "correctAnswer": 0
   },
   {
     "id": 15,
     "question": "Which of the following is true about an interface in Java?",
     "code": "",
-    "answers": ["An interface can have concrete methods", "An interface can extend multiple interfaces", "An interface can implement another interface", "None of the above"],
+    "answers": [
+      "An interface can have concrete methods",
+      "An interface can extend multiple interfaces",
+      "An interface can implement another interface",
+      "None of the above"
+    ],
     "correctAnswer": 1
   },
   {
     "id": 16,
     "question": "Which of the following is the correct way to create a new thread in Java?",
     "code": "",
-    "answers": ["Extend the Thread class", "Implement the Runnable interface", "Both a and b", "None of the above"],
+    "answers": [
+      "Extend the Thread class",
+      "Implement the Runnable interface",
+      "Both a and b",
+      "None of the above"
+    ],
     "correctAnswer": 2
   },
   {
@@ -136,7 +161,12 @@
     "id": 20,
     "question": "Which of the following is the correct way to declare a method that returns an int and takes two int parameters in Java?",
     "code": "",
-    "answers": ["int func(int, int);", "int func(int a, int b);", "func(int a, int b) int;", "int func(int a, int b) int;"],
+    "answers": [
+      "int func(int, int);",
+      "int func(int a, int b);",
+      "func(int a, int b) int;",
+      "int func(int a, int b) int;"
+    ],
     "correctAnswer": 1
   },
   {
@@ -150,14 +180,24 @@
     "id": 22,
     "question": "Which of the following is true about a final class in Java?",
     "code": "",
-    "answers": ["A final class can be extended", "A final class cannot be instantiated", "A final class cannot be extended", "None of the above"],
+    "answers": [
+      "A final class can be extended",
+      "A final class cannot be instantiated",
+      "A final class cannot be extended",
+      "None of the above"
+    ],
     "correctAnswer": 2
   },
   {
     "id": 23,
     "question": "Which of the following is the correct way to declare a string in Java?",
     "code": "",
-    "answers": ["String str = 'Hello';", "String str = \"Hello\";", "char str = \"Hello\";", "String str = Hello;"],
+    "answers": [
+      "String str = 'Hello';",
+      "String str = \"Hello\";",
+      "char str = \"Hello\";",
+      "String str = Hello;"
+    ],
     "correctAnswer": 1
   },
   {
@@ -171,7 +211,12 @@
     "id": 25,
     "question": "Which of the following is the correct way to create an ArrayList in Java?",
     "code": "",
-    "answers": ["ArrayList list = new ArrayList();", "ArrayList list = new ArrayList[];", "ArrayList list = new ArrayList[10];", "ArrayList list = new ArrayList(int size);"],
+    "answers": [
+      "ArrayList list = new ArrayList();",
+      "ArrayList list = new ArrayList[];",
+      "ArrayList list = new ArrayList[10];",
+      "ArrayList list = new ArrayList(int size);"
+    ],
     "correctAnswer": 0
   },
   {
@@ -192,14 +237,24 @@
     "id": 28,
     "question": "Which of the following is used to declare an abstract method in Java?",
     "code": "",
-    "answers": ["abstract void method();", "void abstract method();", "void method() abstract;", "none of the above"],
+    "answers": [
+      "abstract void method();",
+      "void abstract method();",
+      "void method() abstract;",
+      "none of the above"
+    ],
     "correctAnswer": 0
   },
   {
     "id": 29,
     "question": "Which of the following is true about a static method in Java?",
     "code": "",
-    "answers": ["A static method can access instance variables", "A static method can be overridden", "A static method belongs to the class rather than the object", "None of the above"],
+    "answers": [
+      "A static method can access instance variables",
+      "A static method can be overridden",
+      "A static method belongs to the class rather than the object",
+      "None of the above"
+    ],
     "correctAnswer": 2
   },
   {
@@ -234,7 +289,12 @@
     "id": 34,
     "question": "Which of the following is true about a synchronized method in Java?",
     "code": "",
-    "answers": ["A synchronized method can be called by multiple threads at the same time", "A synchronized method is used to ensure thread safety", "A synchronized method can be overridden", "None of the above"],
+    "answers": [
+      "A synchronized method can be called by multiple threads at the same time",
+      "A synchronized method is used to ensure thread safety",
+      "A synchronized method can be overridden",
+      "None of the above"
+    ],
     "correctAnswer": 1
   },
   {
@@ -248,7 +308,12 @@
     "id": 36,
     "question": "Which of the following is true about a try-catch block in Java?",
     "code": "",
-    "answers": ["A try block must be followed by at least one catch block", "A try block must be followed by either a catch or finally block", "A try block cannot be nested", "None of the above"],
+    "answers": [
+      "A try block must be followed by at least one catch block",
+      "A try block must be followed by either a catch or finally block",
+      "A try block cannot be nested",
+      "None of the above"
+    ],
     "correctAnswer": 1
   },
   {
@@ -262,14 +327,24 @@
     "id": 38,
     "question": "Which of the following is true about an enum in Java?",
     "code": "",
-    "answers": ["An enum can extend a class", "An enum can implement an interface", "An enum cannot have methods", "None of the above"],
+    "answers": [
+      "An enum can extend a class",
+      "An enum can implement an interface",
+      "An enum cannot have methods",
+      "None of the above"
+    ],
     "correctAnswer": 1
   },
   {
     "id": 39,
     "question": "Which of the following is the correct way to declare an array of integers in Java?",
     "code": "",
-    "answers": ["int arr[] = new int[3];", "int arr = new int[3];", "int arr[] = int[3];", "int[] arr = int[3];"],
+    "answers": [
+      "int arr[] = new int[3];",
+      "int arr = new int[3];",
+      "int arr[] = int[3];",
+      "int[] arr = int[3];"
+    ],
     "correctAnswer": 0
   },
   {
@@ -290,7 +365,12 @@
     "id": 42,
     "question": "Which of the following is true about garbage collection in Java?",
     "code": "",
-    "answers": ["Garbage collection cannot be forced", "Garbage collection can be forced using System.gc()", "Garbage collection can be forced using finalize()", "None of the above"],
+    "answers": [
+      "Garbage collection cannot be forced",
+      "Garbage collection can be forced using System.gc()",
+      "Garbage collection can be forced using finalize()",
+      "None of the above"
+    ],
     "correctAnswer": 0
   },
   {
@@ -311,7 +391,12 @@
     "id": 45,
     "question": "Which of the following is true about an abstract class in Java?",
     "code": "",
-    "answers": ["An abstract class can have abstract methods", "An abstract class cannot have concrete methods", "An abstract class can be instantiated", "None of the above"],
+    "answers": [
+      "An abstract class can have abstract methods",
+      "An abstract class cannot have concrete methods",
+      "An abstract class can be instantiated",
+      "None of the above"
+    ],
     "correctAnswer": 0
   },
   {
@@ -325,21 +410,36 @@
     "id": 47,
     "question": "Which of the following is the correct way to declare a two-dimensional array in Java?",
     "code": "",
-    "answers": ["int[][] arr = new int[3][3];", "int[] arr = new int[3][3];", "int arr = new int[3][3];", "int[][] arr = int[3][3];"],
+    "answers": [
+      "int[][] arr = new int[3][3];",
+      "int[] arr = new int[3][3];",
+      "int arr = new int[3][3];",
+      "int[][] arr = int[3][3];"
+    ],
     "correctAnswer": 0
   },
   {
     "id": 48,
     "question": "Which of the following is the correct way to declare a constructor in Java?",
     "code": "",
-    "answers": ["public void Test(){}", "public Test(){}", "void Test(){}", "Test(){}"],
+    "answers": [
+      "public void Test(){}",
+      "public Test(){}",
+      "void Test(){}",
+      "Test(){}"
+    ],
     "correctAnswer": 1
   },
   {
     "id": 49,
     "question": "Which of the following is true about an exception in Java?",
     "code": "",
-    "answers": ["An exception must be handled", "An exception cannot be thrown explicitly", "An exception can be handled using a try-catch block", "None of the above"],
+    "answers": [
+      "An exception must be handled",
+      "An exception cannot be thrown explicitly",
+      "An exception can be handled using a try-catch block",
+      "None of the above"
+    ],
     "correctAnswer": 2
   },
   {

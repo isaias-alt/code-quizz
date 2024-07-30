@@ -17,21 +17,36 @@
     "id": 3,
     "question": "Which of the following methods converts a JSON object to a string?",
     "code": "",
-    "answers": ["jsonDecode()", "jsonEncode()", "toString()", "jsonStringify()"],
+    "answers": [
+      "jsonDecode()",
+      "jsonEncode()",
+      "toString()",
+      "jsonStringify()"
+    ],
     "correctAnswer": 1
   },
   {
     "id": 4,
     "question": "What does the 'this' keyword refer to in a Dart class?",
     "code": "",
-    "answers": ["The global object", "The object that called the function", "The current instance of the class", "None of the above"],
+    "answers": [
+      "The global object",
+      "The object that called the function",
+      "The current instance of the class",
+      "None of the above"
+    ],
     "correctAnswer": 2
   },
   {
     "id": 5,
     "question": "How do you write a comment in Dart?",
     "code": "",
-    "answers": ["<!-- This is a comment -->", "// This is a comment", "/* This is a comment */", "# This is a comment"],
+    "answers": [
+      "<!-- This is a comment -->",
+      "// This is a comment",
+      "/* This is a comment */",
+      "# This is a comment"
+    ],
     "correctAnswer": 1
   },
   {
@@ -108,7 +123,12 @@
     "id": 16,
     "question": "What is the correct syntax for importing a Dart library?",
     "code": "",
-    "answers": ["import 'library.dart';", "#include 'library.dart'", "<import 'library.dart'>", "library 'library.dart'"],
+    "answers": [
+      "import 'library.dart';",
+      "#include 'library.dart'",
+      "<import 'library.dart'>",
+      "library 'library.dart'"
+    ],
     "correctAnswer": 0
   },
   {
@@ -122,7 +142,12 @@
     "id": 18,
     "question": "How do you declare a Dart variable?",
     "code": "",
-    "answers": ["variable carName;", "var carName;", "let carName;", "declare carName;"],
+    "answers": [
+      "variable carName;",
+      "var carName;",
+      "let carName;",
+      "declare carName;"
+    ],
     "correctAnswer": 1
   },
   {
@@ -143,7 +168,12 @@
     "id": 21,
     "question": "What is the purpose of the 'debugger' statement in Dart?",
     "code": "",
-    "answers": ["It stops the execution of Dart code", "It triggers a breakpoint in the code", "It logs a message to the console", "It catches errors in the code"],
+    "answers": [
+      "It stops the execution of Dart code",
+      "It triggers a breakpoint in the code",
+      "It logs a message to the console",
+      "It catches errors in the code"
+    ],
     "correctAnswer": 1
   },
   {
@@ -157,14 +187,24 @@
     "id": 23,
     "question": "What does 'NaN' stand for in Dart?",
     "code": "",
-    "answers": ["Not a Null", "Number and Null", "Not a Number", "None of the above"],
+    "answers": [
+      "Not a Null",
+      "Number and Null",
+      "Not a Number",
+      "None of the above"
+    ],
     "correctAnswer": 2
   },
   {
     "id": 24,
     "question": "What will the following code output?",
     "code": "print([1, 2, 3] + [4, 5, 6]);",
-    "answers": ["[1, 2, 3, 4, 5, 6]", "[1, 2, 3][4, 5, 6]", "1,2,34,5,6", "undefined"],
+    "answers": [
+      "[1, 2, 3, 4, 5, 6]",
+      "[1, 2, 3][4, 5, 6]",
+      "1,2,34,5,6",
+      "undefined"
+    ],
     "correctAnswer": 0
   },
   {
@@ -241,7 +281,12 @@
     "id": 35,
     "question": "Which method is used to convert a string to lowercase letters in Dart?",
     "code": "",
-    "answers": ["toLowerCase()", "toLower()", "changeCase(lower)", "None of the above"],
+    "answers": [
+      "toLowerCase()",
+      "toLower()",
+      "changeCase(lower)",
+      "None of the above"
+    ],
     "correctAnswer": 0
   },
   {
@@ -269,14 +314,24 @@
     "id": 39,
     "question": "What does the 'isNaN' function do?",
     "code": "",
-    "answers": ["Checks if a value is a number", "Checks if a value is not a number", "Checks if a value is null", "Checks if a value is undefined"],
+    "answers": [
+      "Checks if a value is a number",
+      "Checks if a value is not a number",
+      "Checks if a value is null",
+      "Checks if a value is undefined"
+    ],
     "correctAnswer": 1
   },
   {
     "id": 40,
     "question": "What is the purpose of the 'break' statement in a loop?",
     "code": "",
-    "answers": ["To pause the loop", "To stop the loop and exit", "To restart the loop", "None of the above"],
+    "answers": [
+      "To pause the loop",
+      "To stop the loop and exit",
+      "To restart the loop",
+      "None of the above"
+    ],
     "correctAnswer": 1
   },
   {
@@ -318,7 +373,12 @@
     "id": 46,
     "question": "What does the 'map' method do in Dart?",
     "code": "",
-    "answers": ["Maps one list to another list", "Creates a new list with the results of calling a provided function on every element in the calling list", "Filters elements from a list", "None of the above"],
+    "answers": [
+      "Maps one list to another list",
+      "Creates a new list with the results of calling a provided function on every element in the calling list",
+      "Filters elements from a list",
+      "None of the above"
+    ],
     "correctAnswer": 1
   },
   {
@@ -346,7 +406,12 @@
     "id": 50,
     "question": "Which method can be used to add one or more elements to the beginning of a list?",
     "code": "",
-    "answers": ["insertAll(0, [])", "insert(0, element)", "push()", "unshift()"],
+    "answers": [
+      "insertAll(0, [])",
+      "insert(0, element)",
+      "push()",
+      "unshift()"
+    ],
     "correctAnswer": 0
   }
 ]

@@ -17,21 +17,36 @@
     "id": 3,
     "question": "Which of the following methods converts a JSON object to a string?",
     "code": "",
-    "answers": ["JSON.parse()", "JSON.stringify()", "toString()", "JSON.toString()"],
+    "answers": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "toString()",
+      "JSON.toString()"
+    ],
     "correctAnswer": 1
   },
   {
     "id": 4,
     "question": "What does the 'this' keyword refer to in a regular function?",
     "code": "",
-    "answers": ["The global object", "The object that called the function", "The function itself", "None of the above"],
+    "answers": [
+      "The global object",
+      "The object that called the function",
+      "The function itself",
+      "None of the above"
+    ],
     "correctAnswer": 0
   },
   {
     "id": 5,
     "question": "How do you write a comment in JavaScript?",
     "code": "",
-    "answers": ["<!-- This is a comment -->", "// This is a comment", "{/* This is a comment */}", "# This is a comment"],
+    "answers": [
+      "<!-- This is a comment -->",
+      "// This is a comment",
+      "{/* This is a comment */}",
+      "# This is a comment"
+    ],
     "correctAnswer": 1
   },
   {
@@ -80,7 +95,12 @@
     "id": 12,
     "question": "Which of the following methods can be used to stop an interval timer in JavaScript?",
     "code": "",
-    "answers": ["clearInterval()", "clearTimeout()", "stopInterval()", "stopTimeout()"],
+    "answers": [
+      "clearInterval()",
+      "clearTimeout()",
+      "stopInterval()",
+      "stopTimeout()"
+    ],
     "correctAnswer": 0
   },
   {
@@ -108,7 +128,12 @@
     "id": 16,
     "question": "What is the correct syntax for referring to an external script called 'script.js'?",
     "code": "",
-    "answers": ["<script href='script.js'>", "<script name='script.js'>", "<script src='script.js'>", "<script file='script.js'>"],
+    "answers": [
+      "<script href='script.js'>",
+      "<script name='script.js'>",
+      "<script src='script.js'>",
+      "<script file='script.js'>"
+    ],
     "correctAnswer": 2
   },
   {
@@ -122,7 +147,12 @@
     "id": 18,
     "question": "How do you declare a JavaScript variable?",
     "code": "",
-    "answers": ["variable carName;", "var carName;", "let carName;", "declare carName;"],
+    "answers": [
+      "variable carName;",
+      "var carName;",
+      "let carName;",
+      "declare carName;"
+    ],
     "correctAnswer": 2
   },
   {
@@ -143,7 +173,12 @@
     "id": 21,
     "question": "What is the purpose of the 'debugger' statement in JavaScript?",
     "code": "",
-    "answers": ["It stops the execution of JavaScript", "It triggers a breakpoint in the code", "It logs a message to the console", "It catches errors in the code"],
+    "answers": [
+      "It stops the execution of JavaScript",
+      "It triggers a breakpoint in the code",
+      "It logs a message to the console",
+      "It catches errors in the code"
+    ],
     "correctAnswer": 1
   },
   {
@@ -157,14 +192,24 @@
     "id": 23,
     "question": "What does 'NaN' stand for in JavaScript?",
     "code": "",
-    "answers": ["Not a Null", "Number and Null", "Not a Number", "None of the above"],
+    "answers": [
+      "Not a Null",
+      "Number and Null",
+      "Not a Number",
+      "None of the above"
+    ],
     "correctAnswer": 2
   },
   {
     "id": 24,
     "question": "What will the following code output?",
     "code": "console.log([1, 2, 3] + [4, 5, 6]);",
-    "answers": ["[1, 2, 3, 4, 5, 6]", "[1, 2, 3][4, 5, 6]", "1,2,34,5,6", "undefined"],
+    "answers": [
+      "[1, 2, 3, 4, 5, 6]",
+      "[1, 2, 3][4, 5, 6]",
+      "1,2,34,5,6",
+      "undefined"
+    ],
     "correctAnswer": 2
   },
   {
@@ -241,7 +286,12 @@
     "id": 35,
     "question": "Which method is used to convert a string to lowercase letters in JavaScript?",
     "code": "",
-    "answers": ["toLowerCase()", "toLower()", "changeCase(lower)", "None of the above"],
+    "answers": [
+      "toLowerCase()",
+      "toLower()",
+      "changeCase(lower)",
+      "None of the above"
+    ],
     "correctAnswer": 0
   },
   {
@@ -269,14 +319,24 @@
     "id": 39,
     "question": "What does the 'isNaN' function do?",
     "code": "",
-    "answers": ["Checks if a value is a number", "Checks if a value is not a number", "Checks if a value is null", "Checks if a value is undefined"],
+    "answers": [
+      "Checks if a value is a number",
+      "Checks if a value is not a number",
+      "Checks if a value is null",
+      "Checks if a value is undefined"
+    ],
     "correctAnswer": 1
   },
   {
     "id": 40,
     "question": "What is the purpose of the 'break' statement in a loop?",
     "code": "",
-    "answers": ["To pause the loop", "To stop the loop and exit", "To restart the loop", "None of the above"],
+    "answers": [
+      "To pause the loop",
+      "To stop the loop and exit",
+      "To restart the loop",
+      "None of the above"
+    ],
     "correctAnswer": 1
   },
   {
@@ -318,7 +378,12 @@
     "id": 46,
     "question": "What does the 'map' method do in JavaScript?",
     "code": "",
-    "answers": ["Maps one array to another array", "Creates a new array with the results of calling a provided function on every element in the calling array", "Filters elements from an array", "None of the above"],
+    "answers": [
+      "Maps one array to another array",
+      "Creates a new array with the results of calling a provided function on every element in the calling array",
+      "Filters elements from an array",
+      "None of the above"
+    ],
     "correctAnswer": 1
   },
   {

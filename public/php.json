@@ -17,21 +17,36 @@
     "id": 3,
     "question": "Which of the following methods converts a PHP object to a JSON string?",
     "code": "",
-    "answers": ["json_decode()", "json_encode()", "toString()", "json.toString()"],
+    "answers": [
+      "json_decode()",
+      "json_encode()",
+      "toString()",
+      "json.toString()"
+    ],
     "correctAnswer": 1
   },
   {
     "id": 4,
     "question": "What does the 'this' keyword refer to in a regular PHP function?",
     "code": "",
-    "answers": ["The global object", "The object that called the function", "The function itself", "None of the above"],
+    "answers": [
+      "The global object",
+      "The object that called the function",
+      "The function itself",
+      "None of the above"
+    ],
     "correctAnswer": 3
   },
   {
     "id": 5,
     "question": "How do you write a comment in PHP?",
     "code": "",
-    "answers": ["<!-- This is a comment -->", "// This is a comment", "{/* This is a comment */}", "# This is a comment"],
+    "answers": [
+      "<!-- This is a comment -->",
+      "// This is a comment",
+      "{/* This is a comment */}",
+      "# This is a comment"
+    ],
     "correctAnswer": 1
   },
   {
@@ -80,7 +95,12 @@
     "id": 12,
     "question": "Which of the following methods can be used to stop an interval timer in PHP?",
     "code": "",
-    "answers": ["clearInterval()", "clearTimeout()", "stopInterval()", "stopTimeout()"],
+    "answers": [
+      "clearInterval()",
+      "clearTimeout()",
+      "stopInterval()",
+      "stopTimeout()"
+    ],
     "correctAnswer": 1
   },
   {
@@ -108,7 +128,12 @@
     "id": 16,
     "question": "What is the correct syntax for referring to an external PHP script called 'script.php'?",
     "code": "",
-    "answers": ["<script href='script.php'>", "<script name='script.php'>", "<script src='script.php'>", "<script file='script.php'>"],
+    "answers": [
+      "<script href='script.php'>",
+      "<script name='script.php'>",
+      "<script src='script.php'>",
+      "<script file='script.php'>"
+    ],
     "correctAnswer": 2
   },
   {
@@ -122,7 +147,12 @@
     "id": 18,
     "question": "How do you declare a PHP variable?",
     "code": "",
-    "answers": ["variable $carName;", "var $carName;", "let $carName;", "declare $carName;"],
+    "answers": [
+      "variable $carName;",
+      "var $carName;",
+      "let $carName;",
+      "declare $carName;"
+    ],
     "correctAnswer": 1
   },
   {
@@ -143,7 +173,12 @@
     "id": 21,
     "question": "What is the purpose of the 'debugger' statement in PHP?",
     "code": "",
-    "answers": ["It stops the execution of PHP", "It triggers a breakpoint in the code", "It logs a message to the console", "It catches errors in the code"],
+    "answers": [
+      "It stops the execution of PHP",
+      "It triggers a breakpoint in the code",
+      "It logs a message to the console",
+      "It catches errors in the code"
+    ],
     "correctAnswer": 1
   },
   {
@@ -157,14 +192,24 @@
     "id": 23,
     "question": "What does 'NaN' stand for in PHP?",
     "code": "",
-    "answers": ["Not a Null", "Number and Null", "Not a Number", "None of the above"],
+    "answers": [
+      "Not a Null",
+      "Number and Null",
+      "Not a Number",
+      "None of the above"
+    ],
     "correctAnswer": 2
   },
   {
     "id": 24,
     "question": "What will the following code output?",
     "code": "echo ([1, 2, 3] + [4, 5, 6]);",
-    "answers": ["[1, 2, 3, 4, 5, 6]", "[1, 2, 3][4, 5, 6]", "1,2,34,5,6", "undefined"],
+    "answers": [
+      "[1, 2, 3, 4, 5, 6]",
+      "[1, 2, 3][4, 5, 6]",
+      "1,2,34,5,6",
+      "undefined"
+    ],
     "correctAnswer": 2
   },
   {
@@ -234,7 +279,12 @@
     "id": 34,
     "question": "What is the correct way to include an external PHP file named 'header.php'?",
     "code": "",
-    "answers": ["<php src='header.php'>", "<php name='header.php'>", "<php include='header.php'>", "<php require('header.php');"],
+    "answers": [
+      "<php src='header.php'>",
+      "<php name='header.php'>",
+      "<php include='header.php'>",
+      "<php require('header.php');"
+    ],
     "correctAnswer": 3
   },
   {
@@ -248,7 +298,12 @@
     "id": 36,
     "question": "What is the correct way to create a constant in PHP?",
     "code": "",
-    "answers": ["const PI = 3.14;", "define(PI, 3.14);", "constant PI = 3.14;", "PI = 3.14;"],
+    "answers": [
+      "const PI = 3.14;",
+      "define(PI, 3.14);",
+      "constant PI = 3.14;",
+      "PI = 3.14;"
+    ],
     "correctAnswer": 0
   },
   {
@@ -276,7 +331,12 @@
     "id": 40,
     "question": "What is the correct way to comment multiple lines in PHP?",
     "code": "",
-    "answers": ["<!-- This is a comment -->", "// This is a comment", "/* This is a comment */", "# This is a comment"],
+    "answers": [
+      "<!-- This is a comment -->",
+      "// This is a comment",
+      "/* This is a comment */",
+      "# This is a comment"
+    ],
     "correctAnswer": 2
   },
   {
@@ -346,7 +406,12 @@
     "id": 50,
     "question": "What is the correct way to define a constant in PHP that is case-insensitive?",
     "code": "",
-    "answers": ["const PI = 3.14;", "define(PI, 3.14, true);", "constant PI = 3.14;", "PI = 3.14;"],
+    "answers": [
+      "const PI = 3.14;",
+      "define(PI, 3.14, true);",
+      "constant PI = 3.14;",
+      "PI = 3.14;"
+    ],
     "correctAnswer": 1
   }
 ]
