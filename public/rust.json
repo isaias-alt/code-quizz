@@ -1,0 +1,467 @@
+[
+  {
+    "id": 1,
+    "question": "¿Cómo se declara una variable en Rust?",
+    "code": "",
+    "answers": [
+      "let variable_name = value;",
+      "var variable_name = value;",
+      "variable variable_name = value;",
+      "declare variable_name = value;"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "question": "¿Qué palabra clave se usa para declarar una variable mutable en Rust?",
+    "code": "",
+    "answers": ["mut", "var", "mutable", "let mut"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 3,
+    "question": "¿Cuál es la extensión de archivo para los archivos fuente de Rust?",
+    "code": "",
+    "answers": [".rs", ".rust", ".r", ".rt"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "¿Cómo se define una función en Rust?",
+    "code": "",
+    "answers": [
+      "fn function_name() {}",
+      "function function_name() {}",
+      "def function_name() {}",
+      "func function_name() {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 5,
+    "question": "¿Cómo se imprime texto en Rust?",
+    "code": "",
+    "answers": [
+      "println!(\"text\");",
+      "print!(\"text\");",
+      "echo!(\"text\");",
+      "write!(\"text\");"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 6,
+    "question": "¿Cómo se define una estructura en Rust?",
+    "code": "",
+    "answers": [
+      "struct StructName {}",
+      "class StructName {}",
+      "type StructName {}",
+      "define StructName {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 7,
+    "question": "¿Cómo se implementa un método para una estructura en Rust?",
+    "code": "",
+    "answers": [
+      "impl StructName { fn method_name(&self) {} }",
+      "def StructName { fn method_name(&self) {} }",
+      "impl StructName { function method_name(&self) {} }",
+      "impl StructName { def method_name(&self) {} }"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 8,
+    "question": "¿Qué palabra clave se usa para definir un módulo en Rust?",
+    "code": "",
+    "answers": ["mod", "module", "namespace", "package"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 9,
+    "question": "¿Cómo se declara un vector en Rust?",
+    "code": "",
+    "answers": [
+      "let v: Vec<T> = Vec::new();",
+      "let v: Vector<T> = Vector::new();",
+      "let v: array<T> = array::new();",
+      "let v: List<T> = List::new();"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 10,
+    "question": "¿Qué palabra clave se usa para definir una enumeración en Rust?",
+    "code": "",
+    "answers": ["enum", "enumeration", "enum_class", "enum_type"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 11,
+    "question": "¿Cómo se maneja el manejo de errores en Rust?",
+    "code": "",
+    "answers": [
+      "Result<T, E>",
+      "Error<T, E>",
+      "Option<T, E>",
+      "Exception<T, E>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 12,
+    "question": "¿Qué método se usa para convertir un string a un número entero en Rust?",
+    "code": "",
+    "answers": [
+      "parse::<i32>()",
+      "to_int()",
+      "convert::<i32>()",
+      "parse_int()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 13,
+    "question": "¿Cómo se define una constante en Rust?",
+    "code": "",
+    "answers": [
+      "const CONSTANT_NAME: type = value;",
+      "let CONSTANT_NAME: type = value;",
+      "define CONSTANT_NAME: type = value;",
+      "static CONSTANT_NAME: type = value;"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 14,
+    "question": "¿Qué operador se usa para la comparación de igualdad en Rust?",
+    "code": "",
+    "answers": ["==", "=", "===", "equals"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 15,
+    "question": "¿Cómo se define una función genérica en Rust?",
+    "code": "",
+    "answers": [
+      "fn function_name<T>(param: T) {}",
+      "function<T> function_name(param: T) {}",
+      "fn<T> function_name(param: T) {}",
+      "func<T> function_name(param: T) {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 16,
+    "question": "¿Cómo se crea una instancia de una estructura en Rust?",
+    "code": "",
+    "answers": [
+      "let instance = StructName { field1: value1, field2: value2 };",
+      "let instance = new StructName { field1: value1, field2: value2 };",
+      "let instance = StructName.new(field1: value1, field2: value2);",
+      "let instance = create StructName { field1: value1, field2: value2 };"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 17,
+    "question": "¿Qué palabra clave se usa para definir un trait en Rust?",
+    "code": "",
+    "answers": ["trait", "interface", "protocol", "typeclass"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 18,
+    "question": "¿Cómo se implementa un trait para una estructura en Rust?",
+    "code": "",
+    "answers": [
+      "impl TraitName for StructName {}",
+      "def TraitName for StructName {}",
+      "impl TraitName on StructName {}",
+      "implement TraitName for StructName {}"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 19,
+    "question": "¿Qué palabra clave se usa para definir un bloque de código que puede fallar en Rust?",
+    "code": "",
+    "answers": ["try", "catch", "rescue", "attempt"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 20,
+    "question": "¿Cómo se declara una variable de tipo string en Rust?",
+    "code": "",
+    "answers": [
+      "let s: String = String::from(\"text\");",
+      "let s: str = \"text\";",
+      "let s: string = String::new(\"text\");",
+      "let s: str = String::from(\"text\");"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 21,
+    "question": "¿Qué método se usa para agregar un elemento a un vector en Rust?",
+    "code": "",
+    "answers": ["push", "add", "append", "insert"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 22,
+    "question": "¿Cómo se define una referencia mutable en Rust?",
+    "code": "",
+    "answers": [
+      "let r = &mut variable;",
+      "let r = &variable;",
+      "let r = mut& variable;",
+      "let r = mut variable;"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 23,
+    "question": "¿Qué operador se usa para la desreferenciación en Rust?",
+    "code": "",
+    "answers": ["*", "&", "->", "<-"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 24,
+    "question": "¿Cómo se define una función anónima en Rust?",
+    "code": "",
+    "answers": [
+      "let closure = |param| { ... };",
+      "let closure = (param) => { ... };",
+      "let closure = func(param) { ... };",
+      "let closure = lambda(param) { ... };"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 25,
+    "question": "¿Qué palabra clave se usa para definir un tipo alias en Rust?",
+    "code": "",
+    "answers": ["type", "alias", "typedef", "using"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 26,
+    "question": "¿Cómo se maneja el concepto de 'propiedad' en Rust?",
+    "code": "",
+    "answers": ["Ownership", "Ownership", "Borrowing", "Lending"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 27,
+    "question": "¿Qué método se usa para verificar si un vector está vacío en Rust?",
+    "code": "",
+    "answers": ["is_empty", "empty", "len == 0", "none"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 28,
+    "question": "¿Cómo se define un bucle infinito en Rust?",
+    "code": "",
+    "answers": [
+      "loop { ... }",
+      "while true { ... }",
+      "for(;;) { ... }",
+      "infinite { ... }"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 29,
+    "question": "¿Qué palabra clave se usa para definir un test en Rust?",
+    "code": "",
+    "answers": ["#[test]", "#[unit_test]", "test", "def_test"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 30,
+    "question": "¿Cómo se accede a un elemento de un vector en Rust?",
+    "code": "",
+    "answers": [
+      "vector[index]",
+      "vector.get(index)",
+      "vector.at(index)",
+      "vector[index]!"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 31,
+    "question": "¿Qué método se usa para ordenar un vector en Rust?",
+    "code": "",
+    "answers": ["sort", "order", "arrange", "organize"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 32,
+    "question": "¿Cómo se define una tupla en Rust?",
+    "code": "",
+    "answers": [
+      "let t = (value1, value2);",
+      "let t = [value1, value2];",
+      "let t = {value1, value2};",
+      "let t = <value1, value2>;"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 33,
+    "question": "¿Qué palabra clave se usa para definir un bloque de código seguro en Rust?",
+    "code": "",
+    "answers": ["unsafe", "safe", "secure", "trusted"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 34,
+    "question": "¿Qué método se usa para obtener la longitud de un vector en Rust?",
+    "code": "",
+    "answers": ["len", "length", "size", "count"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 35,
+    "question": "¿Cómo se define un match en Rust?",
+    "code": "",
+    "answers": [
+      "match value { pattern => expression, ... }",
+      "switch value { case pattern: expression, ... }",
+      "match value { case pattern => expression, ... }",
+      "select value { case pattern => expression, ... }"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 36,
+    "question": "¿Qué palabra clave se usa para importar un módulo en Rust?",
+    "code": "",
+    "answers": ["use", "import", "include", "require"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 37,
+    "question": "¿Cómo se define un bloque async en Rust?",
+    "code": "",
+    "answers": [
+      "async { ... }",
+      "await { ... }",
+      "async_block { ... }",
+      "async_fn { ... }"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 38,
+    "question": "¿Cómo se define una futura tarea en Rust?",
+    "code": "",
+    "answers": ["Future", "Task", "Promise", "Async"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 39,
+    "question": "¿Qué método se usa para clonar un vector en Rust?",
+    "code": "",
+    "answers": ["clone", "copy", "duplicate", "replicate"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 40,
+    "question": "¿Cómo se convierte una referencia mutable en una inmutable en Rust?",
+    "code": "",
+    "answers": [
+      "&*reference",
+      "&mut reference",
+      "*&reference",
+      "*&mut reference"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 41,
+    "question": "¿Qué método se usa para obtener una subcadena en Rust?",
+    "code": "",
+    "answers": [
+      "&string[start..end]",
+      "substring(start, end)",
+      "slice(start, end)",
+      "substr(start, end)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 42,
+    "question": "¿Qué palabra clave se usa para definir un loop en Rust?",
+    "code": "",
+    "answers": ["loop", "while", "for", "iterate"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 43,
+    "question": "¿Qué método se usa para obtener el tamaño de un string en Rust?",
+    "code": "",
+    "answers": ["len", "length", "size", "count"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 44,
+    "question": "¿Qué palabra clave se usa para definir una macro en Rust?",
+    "code": "",
+    "answers": ["macro", "defmacro", "define", "function"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 45,
+    "question": "¿Cómo se define una estructura genérica en Rust?",
+    "code": "",
+    "answers": [
+      "struct StructName<T> { ... }",
+      "struct StructName { ... }<T>",
+      "struct<T> StructName { ... }",
+      "struct<T> { ... }"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 46,
+    "question": "¿Qué operador se usa para la referencia de una variable en Rust?",
+    "code": "",
+    "answers": ["&", "*", "@", "#"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 47,
+    "question": "¿Qué método se usa para ordenar un vector en Rust?",
+    "code": "",
+    "answers": ["sort", "order", "arrange", "organize"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 48,
+    "question": "¿Qué método se usa para invertir un vector en Rust?",
+    "code": "",
+    "answers": ["reverse", "invert", "flip", "reorder"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 49,
+    "question": "¿Qué palabra clave se usa para definir una función que puede no devolver un valor en Rust?",
+    "code": "",
+    "answers": ["Option", "Maybe", "Optional", "Choice"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 50,
+    "question": "¿Qué método se usa para concatenar dos strings en Rust?",
+    "code": "",
+    "answers": ["push_str", "concat", "append", "join"],
+    "correctAnswer": 0
+  }
+]

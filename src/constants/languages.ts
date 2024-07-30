@@ -14,4 +14,5 @@ export const LANGUAGES: Language[] = [
   { value: "kotlin", label: "Kotlin" },
   { value: "go", label: "Go" },
   { value: "ruby", label: "Ruby" },
+  { value: "rust", label: "Rust" },
 ];
