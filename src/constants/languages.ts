@@ -1,6 +1,4 @@
-import { Language } from "../types.d";
-
-export const LANGUAGES: Language[] = [
+export const LANGUAGES = [
   { value: "javascript", label: "JavaScript" },
   { value: "dart", label: "Dart" },
   { value: "python", label: "Python" },
@@ -15,4 +13,5 @@ export const LANGUAGES: Language[] = [
   { value: "go", label: "Go" },
   { value: "ruby", label: "Ruby" },
   { value: "rust", label: "Rust" },
+  { value: "scala", label: "Scala" },
 ];

@@ -1,0 +1,437 @@
+[
+  {
+    "id": 1,
+    "question": "¿Qué palabra clave se usa para definir una variable inmutable en Scala?",
+    "code": "",
+    "answers": ["val", "var", "def", "let"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "question": "¿Qué palabra clave se usa para definir una variable mutable en Scala?",
+    "code": "",
+    "answers": ["var", "val", "def", "let"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 3,
+    "question": "¿Cómo se define una función en Scala?",
+    "code": "",
+    "answers": [
+      "def functionName(args: Type): ReturnType = { ... }",
+      "function functionName(args: Type): ReturnType = { ... }",
+      "func functionName(args: Type): ReturnType = { ... }",
+      "let functionName(args: Type): ReturnType = { ... }"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 4,
+    "question": "¿Qué estructura de datos se usa para almacenar una colección ordenada y mutable en Scala?",
+    "code": "",
+    "answers": ["ArrayBuffer", "List", "Set", "Map"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 5,
+    "question": "¿Cómo se define una clase en Scala?",
+    "code": "",
+    "answers": [
+      "class ClassName { ... }",
+      "class ClassName = { ... }",
+      "def ClassName { ... }",
+      "let ClassName { ... }"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 6,
+    "question": "¿Qué palabra clave se usa para crear un singleton object en Scala?",
+    "code": "",
+    "answers": ["object", "class", "singleton", "instance"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 7,
+    "question": "¿Qué método se usa para imprimir en consola en Scala?",
+    "code": "",
+    "answers": ["println", "print", "echo", "write"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 8,
+    "question": "¿Qué palabra clave se usa para heredar de una clase en Scala?",
+    "code": "",
+    "answers": ["extends", "inherits", "derives", "implements"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 9,
+    "question": "¿Cómo se define una lista inmutable en Scala?",
+    "code": "",
+    "answers": [
+      "val list = List(1, 2, 3)",
+      "var list = List(1, 2, 3)",
+      "let list = List(1, 2, 3)",
+      "def list = List(1, 2, 3)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 10,
+    "question": "¿Cómo se define una función anónima en Scala?",
+    "code": "",
+    "answers": [
+      "(x: Int) => x + 1",
+      "function(x: Int) => x + 1",
+      "def(x: Int) => x + 1",
+      "val(x: Int) => x + 1"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 11,
+    "question": "¿Qué palabra clave se usa para definir una función que no devuelve un valor en Scala?",
+    "code": "",
+    "answers": ["Unit", "Void", "Nothing", "Null"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 12,
+    "question": "¿Qué palabra clave se usa para definir un trait en Scala?",
+    "code": "",
+    "answers": ["trait", "interface", "abstract", "protocol"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 13,
+    "question": "¿Cómo se define un mapa inmutable en Scala?",
+    "code": "",
+    "answers": [
+      "val map = Map(key1 -> value1, key2 -> value2)",
+      "var map = Map(key1 -> value1, key2 -> value2)",
+      "let map = Map(key1 -> value1, key2 -> value2)",
+      "def map = Map(key1 -> value1, key2 -> value2)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 14,
+    "question": "¿Cómo se define una opción en Scala?",
+    "code": "",
+    "answers": [
+      "val option = Some(value)",
+      "val option = Option(value)",
+      "val option = Maybe(value)",
+      "val option = Either(value)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 15,
+    "question": "¿Cómo se define una tupla en Scala?",
+    "code": "",
+    "answers": [
+      "val tuple = (value1, value2)",
+      "val tuple = [value1, value2]",
+      "val tuple = {value1, value2}",
+      "val tuple = <value1, value2>"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 16,
+    "question": "¿Qué método se usa para filtrar una lista en Scala?",
+    "code": "",
+    "answers": ["filter", "find", "select", "search"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 17,
+    "question": "¿Qué palabra clave se usa para definir una expresión match en Scala?",
+    "code": "",
+    "answers": ["match", "switch", "case", "select"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 18,
+    "question": "¿Cómo se define un bloque try-catch en Scala?",
+    "code": "",
+    "answers": [
+      "try { ... } catch { ... }",
+      "try { ... } rescue { ... }",
+      "attempt { ... } except { ... }",
+      "attempt { ... } catch { ... }"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 19,
+    "question": "¿Qué método se usa para obtener el tamaño de una lista en Scala?",
+    "code": "",
+    "answers": ["size", "length", "count", "measure"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 20,
+    "question": "¿Qué palabra clave se usa para definir una clase abstracta en Scala?",
+    "code": "",
+    "answers": ["abstract", "class", "trait", "object"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 21,
+    "question": "¿Cómo se define una colección vacía en Scala?",
+    "code": "",
+    "answers": [
+      "val emptyList = List()",
+      "val emptyList = []",
+      "val emptyList = {}",
+      "val emptyList = new List()"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 22,
+    "question": "¿Qué método se usa para agregar un elemento a una lista mutable en Scala?",
+    "code": "",
+    "answers": ["+= ", "++=", ":=", "add"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 23,
+    "question": "¿Qué palabra clave se usa para definir una enumeración en Scala?",
+    "code": "",
+    "answers": ["enum", "enumeration", "enumclass", "list"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 24,
+    "question": "¿Cómo se define una función recursiva en Scala?",
+    "code": "",
+    "answers": [
+      "def functionName(args: Type): ReturnType = { ... }",
+      "function functionName(args: Type): ReturnType = { ... }",
+      "def recursive functionName(args: Type): ReturnType = { ... }",
+      "let functionName(args: Type): ReturnType = { ... }"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 25,
+    "question": "¿Qué palabra clave se usa para definir un método en un trait en Scala?",
+    "code": "",
+    "answers": ["def", "method", "func", "trait"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 26,
+    "question": "¿Qué método se usa para transformar una lista en Scala?",
+    "code": "",
+    "answers": ["map", "transform", "convert", "change"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 27,
+    "question": "¿Cómo se define un bloque synchronized en Scala?",
+    "code": "",
+    "answers": [
+      "synchronized { ... }",
+      "sync { ... }",
+      "locked { ... }",
+      "mutex { ... }"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 28,
+    "question": "¿Qué método se usa para reducir una colección en Scala?",
+    "code": "",
+    "answers": ["reduce", "fold", "compress", "accumulate"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 29,
+    "question": "¿Cómo se accede a un elemento de una lista en Scala?",
+    "code": "",
+    "answers": [
+      "list(index)",
+      "list[index]",
+      "list.get(index)",
+      "list.access(index)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 30,
+    "question": "¿Qué palabra clave se usa para definir un paquete en Scala?",
+    "code": "",
+    "answers": ["package", "namespace", "module", "group"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 31,
+    "question": "¿Qué método se usa para combinar dos listas en Scala?",
+    "code": "",
+    "answers": ["++", "+", "combine", "append"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 32,
+    "question": "¿Cómo se define una lista mutable en Scala?",
+    "code": "",
+    "answers": [
+      "val list = scala.collection.mutable.ListBuffer(1, 2, 3)",
+      "val list = mutable.ListBuffer(1, 2, 3)",
+      "let list = ListBuffer(1, 2, 3)",
+      "def list = ListBuffer(1, 2, 3)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 33,
+    "question": "¿Qué método se usa para ordenar una lista en Scala?",
+    "code": "",
+    "answers": ["sorted", "sort", "arrange", "order"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 34,
+    "question": "¿Qué palabra clave se usa para definir una expresión for en Scala?",
+    "code": "",
+    "answers": ["for", "loop", "iterate", "foreach"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 35,
+    "question": "¿Cómo se define un bloque de código asíncrono en Scala?",
+    "code": "",
+    "answers": [
+      "Future { ... }",
+      "async { ... }",
+      "await { ... }",
+      "Promise { ... }"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 36,
+    "question": "¿Qué método se usa para fusionar dos mapas en Scala?",
+    "code": "",
+    "answers": ["++", "+", "merge", "combine"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 37,
+    "question": "¿Qué palabra clave se usa para definir una expresión if-else en Scala?",
+    "code": "",
+    "answers": ["if", "when", "unless", "cond"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 38,
+    "question": "¿Cómo se define una secuencia en Scala?",
+    "code": "",
+    "answers": [
+      "val seq = Seq(1, 2, 3)",
+      "val seq = Sequence(1, 2, 3)",
+      "val seq = Array(1, 2, 3)",
+      "val seq = List(1, 2, 3)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 39,
+    "question": "¿Qué método se usa para encontrar un elemento en una colección en Scala?",
+    "code": "",
+    "answers": ["find", "search", "locate", "seek"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 40,
+    "question": "¿Qué palabra clave se usa para definir una clase final en Scala?",
+    "code": "",
+    "answers": ["final", "sealed", "immutable", "constant"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 41,
+    "question": "¿Cómo se define una opción vacía en Scala?",
+    "code": "",
+    "answers": [
+      "val option = None",
+      "val option = Empty",
+      "val option = Null",
+      "val option = Zero"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 42,
+    "question": "¿Qué palabra clave se usa para definir un bloque de código match-case en Scala?",
+    "code": "",
+    "answers": ["match", "switch", "case", "select"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 43,
+    "question": "¿Qué método se usa para transformar una colección en Scala?",
+    "code": "",
+    "answers": ["map", "transform", "convert", "change"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 44,
+    "question": "¿Cómo se define una función parcial en Scala?",
+    "code": "",
+    "answers": ["partialFunction", "partial", "defPartial", "funcPartial"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 45,
+    "question": "¿Qué palabra clave se usa para definir un bloque de código en un objeto en Scala?",
+    "code": "",
+    "answers": ["object", "class", "module", "package"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 46,
+    "question": "¿Qué método se usa para agrupar elementos de una colección en Scala?",
+    "code": "",
+    "answers": ["groupBy", "clusterBy", "sortBy", "arrangeBy"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 47,
+    "question": "¿Qué palabra clave se usa para definir un método abstracto en Scala?",
+    "code": "",
+    "answers": ["def", "abstract", "method", "func"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 48,
+    "question": "¿Cómo se define un conjunto en Scala?",
+    "code": "",
+    "answers": [
+      "val set = Set(1, 2, 3)",
+      "val set = List(1, 2, 3)",
+      "val set = Array(1, 2, 3)",
+      "val set = Seq(1, 2, 3)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 49,
+    "question": "¿Qué método se usa para filtrar elementos únicos en una colección en Scala?",
+    "code": "",
+    "answers": ["distinct", "unique", "filter", "select"],
+    "correctAnswer": 0
+  },
+  {
+    "id": 50,
+    "question": "¿Qué palabra clave se usa para definir un trait con implementación en Scala?",
+    "code": "",
+    "answers": ["trait", "class", "object", "module"],
+    "correctAnswer": 0
+  }
+]
